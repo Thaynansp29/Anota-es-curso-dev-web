@@ -1,0 +1,21 @@
+Para criar uma caixa com scroll, para fazer um formulario, uma pesquisa.
+<form method="GET" action="">
+     <selec name="estado">
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+     </select>
+
+<input type="submit">
+
+para deixar uma caixa ja selecionada como exemplo, por exemplo:
+
+<option value"SP" selected>São Paulo</option> (so colocar o selected)
+
+para deixar limitar quantos aparece de uma vez e criar um scroll, usar a id size="numero"
+por exemplo:
+
+<selec name="estado" size="5">
+
+Para poder selecionar mais de uma opcao na box é so usar a id multiple por exemplo:
+
+<selec name="estado" size="5" multiple>

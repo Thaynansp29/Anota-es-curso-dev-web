@@ -1,0 +1,26 @@
+serve para comparar um dado com o outro e vai retornar se essa comparação é veraddeira
+ou falsa.
+
+== Igual a (é o tipo se é igual 2==2 true 3==2 false var a = 3 var b = "3" 
+console.log (a == b ) true) 
+
+=== valor igual e igual (aqui o valor e o tipo tem que ser iguais 3==3 true 3==2 false
+var a =3 var b = "3" console.log( a===b) FALSE) se o a e o b forem da mesma classe number
+o valor seria true)
+
+! = Não é igual  (E´para saber se algo é diferente do outro exemplo:( 3 != 3) false; 
+( 3 != 3) true) 
+
+!== Não igual ou não igual (aqui o valor e o tipo tem que ser diferentes (3 !== "3") true
+(3 !== 3) false)
+
+> Maior que (É usado da mesma forma que da forma matematica, (5 > 4) true; 5 é maior que 4
+)
+
+< Menor de (É usado da mesma forma que da forma matematica, (5 < 4) false; 5 não é menor que 4)
+
+> = Maior que ou igual a (É usado da mesma forma que da forma matematica, (4 >= 4) true, 4 é 
+maior ou igual a 4)
+
+<= Menor ou igual a (É usado da mesma forma que da forma matematica, (4 <= 4) true, 4 é 
+menor ou igual a 4)

@@ -1,0 +1,27 @@
+dentro do body para fazer que o evento aconteça depois que a pagina foi carregada
+
+<body onload="console.log('pagina completamente carregada')">
+
+para criar um evento que quando passar o mouse por cima o elemento mude de cor:
+
+<script>
+	function onOver(elemento){
+
+	elemento.style.backgroundColor = "red"
+
+<head>
+	<div onmouseover="onOver(this)">Click</div>
+
+so que dessa maneira ele nao volta para a cor que estava antes para ele volta precisamos adicionar outro evento:
+
+<script>
+	function onOver(elemento){
+
+	elemento.style.backgroundColor = "red"}
+
+	function onOut(elemento{
+	elemento.style.backgroundColor = "A COR ORIGINAL DELE"}
+
+<head>
+	<div onmouseover="onOver(this)"
+	onmouseout="onOut(this)">Click</div>

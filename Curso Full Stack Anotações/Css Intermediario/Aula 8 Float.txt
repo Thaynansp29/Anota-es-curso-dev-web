@@ -1,0 +1,14 @@
+o float é uma propriedade que permite que o elemento fique flutuando ao lado de um
+outro elemento.
+
+#imagem{
+    float:left, right, bottom, top; (para fazer um elemento flutuar)
+}
+
+#imagem2{
+     clear: left, right, bottom, top; (para fazer com que um elemento deixe de flutuar)
+}
+
+clear:both; faz com que idepedente do lado que esteja flutuando ele retira
+
+clear:none: desativa o clear

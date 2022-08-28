@@ -1,0 +1,7 @@
+iframe faz com que eu pegue um conteudo de outra pagina na pagina atual é mais utilizado para por um video do youtube na pagina
+
+<body>
+<iframe scr="https://www.youtube.com/...">
+</body>
+
+para fazer com que mostre somente videos do seu canal no final do link antes do " final coloca rel=0

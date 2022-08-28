@@ -1,0 +1,1 @@
+<hr> faz uma linha horizontal na pagina para separar o conteudo

@@ -1,0 +1,21 @@
+json é uma representação de um objeto significa javascript object notation.
+ele tem dois metodos o stringify que pega um objeto JSON e transformar em uma string
+e o parse ele pega uma string e tenta transformar em um objeto JSON ex:
+
+<script>
+	
+	let a = {
+		nome: "Igor",
+		nota: 8.5}
+
+	let b = JSON.stringify(a);
+
+	let a2 = '{"nome": "fabio", "nota":7.8}';   (ele nao pode ser iniciado com aspas duplas precisa fazer exatamente dessa forma para nao da erro)
+	let b2 = JSON.parse(a2)
+
+	console.log(a)
+	console.log(b)
+
+	console.log(a2)
+	console.log(b)
+</script>

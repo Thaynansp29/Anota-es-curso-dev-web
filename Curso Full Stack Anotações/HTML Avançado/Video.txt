@@ -1,0 +1,43 @@
+para por um video a tag é
+
+<body>
+	<video> </video>
+</body>
+
+coloca o tamanho do video com wdith 
+
+<body>
+	<video width> </video>
+</body>
+
+para por controles no video (para da play, volume...)
+
+<body>
+	<video controls > </video>
+</body>
+
+tem como fazer com que o video der autoplay mas para isso o video precisa esta em mudo
+
+<body>
+	<video autoplay muted> </video>
+</body>
+
+se quiser fazer com que o video fique carregando quando terminar sozinho é o loop
+
+<body>
+	<video loop> </video>
+</body>
+
+para colocar uma foto de thumbnail 
+
+<body>
+	<video poster="o caminho da imagem"> </video>
+</body>
+
+para fazer com que o video pre carregue existem 3 opcoes, auto que faz com que carregue antes de der o play, o metadata que carrega os dados do video antes de da o play e o none que nao
+habilita essa função
+
+<body>
+	<video preload="auto" preload="metadata" preload"none"> </video>
+</body>
+

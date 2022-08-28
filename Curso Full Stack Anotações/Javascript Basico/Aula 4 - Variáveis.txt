@@ -1,0 +1,32 @@
+variavel serve para conseguir lidar com dados sem saber o que esse dado é, ou seja ele vai variar e de qualquer forma vms conseguir
+lidar com ele, nao podemos ter dois dados em uma variavel só ( nao normalmente).
+
+criar uma variavel
+
+dentro do js
+
+var a = "TEXTO"
+
+a = "TEXTO";
+
+uma variavel pode receber outra variavel
+
+var a ;
+
+var b = "hd"
+
+a= "placa de captura";
+
+b = a; (placa de captura)
+
+A ordem afeta tudo aqui, pois se o b = a vinhesse antes o resultado seria invariavel, pois o a nao teria recebido valor ainda.
+
+
+o valor da var pode ser utilizado qualquer nome, numnero so junto com letras e nao no inicio, _ tambem pode, 
+se for uma palavra composta tipo caixagrande, usa a primeira letra da segunda palavra em maiusculo exemplo:
+
+caixaGrande
+
+
+se abrir uma var de um jeito tem que ser utilizada desse jeito, se caso usar alguma
+das letras em maiuscula, tem que ser colocado da mesma forma que o primeiro

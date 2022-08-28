@@ -1,0 +1,7 @@
+ordem e execução, tem que ter cuidado com a ordem de cada coisa pois vai ser executado exatamente
+da forma que foi ordenado, pode nao fazer sentindo para a gente mas para o computador faz,
+pois ele somente segue ordens, temos que exemplificar exatamente do jeito que tem que ser 
+para poder ser feito do jeito que tem que ser!
+
+algumas ordens podem ser mudadas e continuar fazendo sentindo, outras não, sempre verificar se
+há algum bug.

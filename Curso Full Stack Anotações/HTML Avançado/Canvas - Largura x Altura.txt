@@ -1,0 +1,2 @@
+sempre que for setar o canva, sempre colocar o width e o height no proprio id do canvas e nao no css, primeiro se nao colocar na propria tag ele nem se quer aparece e se colocar
+na tag e no css o canva vai ficar esticado e perdendo sua qualidade gráfica

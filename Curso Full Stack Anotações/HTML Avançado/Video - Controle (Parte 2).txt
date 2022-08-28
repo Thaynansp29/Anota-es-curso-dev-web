@@ -1,0 +1,35 @@
+para fazer uma função para da play no video:
+
+primeiro vamos fazer uma variavel com o id que colocamos no video e pegar e tacar no js
+
+let video = document.getElementById("video1")
+
+e fazer as funções
+
+function retroceder(){
+	video.currentTime -= 15;
+}
+
+function avancar(){
+	video.currentTime += 15;
+}
+
+function diminuir_vel(){
+	video.playbackRate -= 0.1;
+}
+
+function aumentar(){
+	video.playbackRate += 0.1;
+}
+
+function play(){
+	video.play();
+}
+
+function stop() {
+	video.pause();
+	video.currentTime = 0;
+}
+
+o function stop ficou desse jeito pq ele quis fazer um botao de stop mas so existe botao de pause, o botao de stop faz com que o video reinicie, fazendo com que ele volte do inicio, 
+então faz o com quee ele pause e depois faz com que ele volte para o inicio

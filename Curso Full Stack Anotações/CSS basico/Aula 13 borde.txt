@@ -1,0 +1,47 @@
+html               		css
+<div class="borda"> 	     .borda{
+                            border-width: 10px; (altura da borda)
+                            border-style: solid;(tipo da borda)          
+</div>                      border-color:red; (cor da borda)
+                            border-radius: 5px; (o quanto quer arredondar a borda)
+				}
+
+
+A borda precisa ter uma expressura entao vamos começar por ela ^
+
+html               		css
+<div class="quadrado borda">     .quadrado{
+</div>                           with: 100px;
+                                 height: 100px;
+                                 background-color: yellow;
+                                  }
+
+para fazer um quadrado e transforma-lo em bola^
+
+borda pontilhada:          css
+                    .dotted {border-top-style: dotted;}
+borda trajetada 
+		    .dashed {border-style: dashed;}
+borda completa e fechada
+                    .solid {border-style: solid;}
+borda invisivel   (como se o elemento nunca tivesse entrado na tela)  
+		     .nome {border-style: solid;}
+borda escondida  (esta na tela mas nao aparece)   
+ 		     .hidden {borden-style: hidden;}
+
+quando for colocar o tamanho da borda ou cores voce pode colocar
+as dimensoes ou cores por sequencia, o sentindo horario que designa
+a ordem exemplo:
+
+cima  direita baixo esquerda
+red; green; blue; black;
+cima direita baixo esquerda
+5px; 10px; 15px; 5px; 
+ 
+----------------A FORMA MAIS SIMPLES DE FAZER UMA BORDA -----------------------------------
+NESSA ORDEM, EXPRESSURA, ESTILO E COR
+
+html               		css
+<div class="borda">     .borda{
+</div>                   border: 5px dashed blue;
+

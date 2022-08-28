@@ -1,0 +1,62 @@
+
+
+<head>
+
+	<script>
+		function loaded() {
+			let t = document.getElementById("titulo")
+
+			t.innerHTML = "rrr";
+		}
+
+	</script>
+
+</head>
+
+<body onload="loaded()">
+
+	<h1 id="titulo">teste</h1>
+</body>
+
+o onload faz com que seja carregado por ultimo entao o o js vai ser carregado por ultimo ja que o elemento esta na function, fazendo com 
+ele leia o h1 e carregue a function de maneira correta.
+
+para fazer com que adicione um evento no js em vez no html:
+
+
+
+<head>
+
+	<script>
+		function loaded() {
+			let t = document.getElementById("titulo")
+
+			t.onclick = mudarText
+		}
+			function mudarText() {
+				this.innerHTML = "NOVO TEXTO";
+		}
+	</script>
+
+</head>
+
+outra maneira:
+
+
+
+
+
+<head>
+
+	<script>
+		function loaded() {
+			let t = document.getElementById("titulo")
+
+			t.addEventListerner("click", mudarText) (t = variavel, addEventListerner é para adicionar um evento, "click" é o evento e mudarText é a var)
+		}
+			function mudarText() {
+				this.innerHTML = "NOVO TEXTO";
+		}
+	</script>
+
+</head>

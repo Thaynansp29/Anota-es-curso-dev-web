@@ -1,0 +1,59 @@
+
+
+       HTML                 		  CSS
+ <div class="container">	.container{
+ 				font-size:20px; 	
+				}
+
+   <div class="insider">        .inside{
+	</div>			font-size:1em;	(o em dentro de uma div ele se relaciona
+                                      }           com a unidade de medida dentro da dev,
+                                                 no caso desse exemplo o px, então
+				   		colocando 1 em significa 20px,
+                                                2 em, 40px, pega referença de quem
+						esta na div)		
+				
+
+                                .inside{
+				font-size:1rem;(ele leve em consideração a raiz(htlm)
+						e nao mais a div)
+
+Unidade de medida VW significa % da largura,pelo que usado por exemplo:
+
+width: 50vw;
+background: red;  
+
+vai aparecer uma barra vermelho que ocupa 50% da tela, ele não é fixo é relativo
+ao tamanho da janela, se for abrindo mais a janela mais ele aumenta ficando sempre em 
+50% do total.
+1vw= 1%
+50vw= 50%
+100vw= 100%
+
+
+Unidade de medida VH é parecido so que mexendo com altura, por exemplo:
+
+width: 50vh;
+background: red;
+
+
+Unidade de medida VMIN é referente a menor dimensão do que houver na div,tendo 
+referença do que houver MENOR na janela, se DIMINUIR a altura ele vai para altura
+se DIMINUIR o comprimento ele vai para o comprimento, por exemplo:
+
+width: 50vmin;
+background: red;
+
+
+Unidade de medida VMAX é referente a maior dimensão do que houver na div, tendo
+referença do que houver MAIOR na janela, se AUMENTAR a altura ele vai para altura
+se AUMENTAR o comprimento ele vai para o comprimento por exemplo:
+
+width: 50vmax;
+background: red;
+
+Unidade de medida % é referente ao tamanho do pai, (html)por exemplo isso no inside
+
+width: 50%;
+background: red;
+

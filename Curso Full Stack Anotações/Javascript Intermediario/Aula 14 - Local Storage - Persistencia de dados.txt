@@ -1,0 +1,51 @@
+localStorage.setItem(); (vai gravar um dado na memoria do navegador podendo usa ele depois)
+
+localStorage.getItem(); (utiliza os dados salvos)
+
+localStorage.removeItem(); (ele apaga o dados salvos) 
+
+Exemplo:
+
+<script>
+
+	onload = function (){
+		let nome = localStorage.getItem("nome");
+		let h1 = document.getElementById("nome");
+		h1.innerHTML = nome;
+}
+
+	function atualizar(element){
+	let valor = element.value;
+	console.log(valor)
+
+	let h1 = document.getElementById("nome");
+	h1.innerHTML = valor;
+
+	localStorage.setItem("nome", valor);
+</script>
+
+<body>
+	<h1 id= "nome"> </h1>
+	<input type="text" oninput="atualizar(this)">
+</body>
+
+
+Dessa maneira vai criar um input com uma caixa aonde que tudo for escrito vai ser transformado em H1 e utilizando o localstorage faz com 
+que tudo fique salvo, assim nao perdendo o conteudo escrito seja perdido quando atualizar a pagina ou saindo dela, so que existe um porem
+que quando armazena numeros ele passar a ser uma string, para mante-lo como numero precisa usar o JSON por exemplo:
+
+<script>
+	let a = {nome: "Igor", n1: 7.3}
+	localStorage.setItem("aluno",JSON.stringify(a));
+
+	let a = localStorage.getItem("aluno");
+	console.log(JSON.parse(a));
+
+</script>
+
+<body>
+	<h1 id= "nome"> </h1>
+	<input type="text" oninput="atualizar(this)">
+</body>
+
+dessa maneira o json pega o objeto salvo que tinha virado string em numero novamente.

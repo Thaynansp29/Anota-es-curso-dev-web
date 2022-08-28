@@ -1,0 +1,26 @@
+Para transformar uma string em number é so colocar a tag parseInt antes do "valor" exemplo:
+
+var a = "3"
+
+var b = "6"
+
+var c = a + b (Assim vai da 36, porque os numeros nao estão na setencia number e sim na string
+
+var a = "3"
+
+var b = "6"
+
+var c = parseInt(a) + parseInt(b) (Assim vai da 9 porque o parseInt vai transformar ele em 
+number)
+
+
+Mas o parseInt so transforma numero inteiro se o exemplo fosse um numero quebrado tipo 3,5
+ele iria pegar somente o inteiro para usar com numero quebrado se usa o parseFloat exemplo:
+
+
+var a = "3.5"
+
+var b = "6"
+
+var c = parseFloat(a) + parseInt(b) (daria 9.5)
+

@@ -1,0 +1,14 @@
+para criar formulario de contato.
+exemplo:
+
+<form method="GET" action="">
+    <input type"text" name="assunto"><br>
+       <textarea name"mensagem"> 
+       </textarea>
+    <input type="submit">
+</form>
+
+
+
+cols é o comprimento da caixa
+rows é a altura da caixa

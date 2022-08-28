@@ -1,0 +1,3 @@
+css faz com que mude a a aparecia de um elemento, tag, etcs...
+
+style="color: red(exemplo,pode ser qualquer cor)"

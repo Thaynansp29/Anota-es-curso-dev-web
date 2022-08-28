@@ -1,0 +1,22 @@
+para poder fazer um circulo em canvas precisa colocara tag arc e dar 4 valores, x,y(x o distanciamento horizontal da borda e y o distanciamento da altura da borda) raio do circulo
+e o angulo que ele começa e o angulo que ele terminae seprando isso tudo em variaveis exemplo:
+
+let tela = document.getElementById("tela");
+
+let ctx = tela.getContext("2d");
+
+let x = 250;
+let y = 250;
+let raio = 100;
+
+let inicio = 0;
+let fim = 2*Math.PI
+
+um circulo inteiro tem 2 pis radianos
+
+ctx.beginPath();
+ctx.strokeStyle = "red";
+
+ctx.arc(x, y, raio, inicio, fim);
+
+ctx.stroke();

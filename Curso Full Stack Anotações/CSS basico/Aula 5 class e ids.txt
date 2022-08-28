@@ -1,0 +1,21 @@
+id: identifica unico elemento de uma classe 
+
+id="QUALQUER NOME" (Para colocar no primario)
+#O NOME QUE COLOCOU NO ID
+
+class="	Qualquer nome"(Para colocar no primario)
+.o nome que colocou no class
+
+a class pode ser colocoado em mais de um elemento tendo o mesmo nome
+
+
+Para criar um link para levar para algum lugar expecifico da pagina:
+
+primeiro se cria um id na imagem:
+
+<img id="Sabonete-em-barra" src="Imagem/Sabonete-em-barra.jpg" alt="Sabonete em barra" height="150" >
+
+depois abre um <a>(criação de link) colocando # e o nome do id(so da para fazer isso com id, por conta de ser unico)
+<a href="#Sabonete-em-barra"> Sabonete em barra</a>
+
+

@@ -1,0 +1,7 @@
+<!--
+Tem por finalidade informar ao programa de navegação a possibilidade de pular as linhas de código do script, caso o browser não suporte o 
+código JavaScript.
+
+//-->
+É o indicador de finalização do conteúdo das linhas do código JavaScript.
+

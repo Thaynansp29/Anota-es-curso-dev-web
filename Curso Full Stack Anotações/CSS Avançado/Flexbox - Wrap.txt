@@ -1,0 +1,98 @@
+o flex-wrap: wrap, ele meio que vai proteger as dimensões que foram setadas para o conteudo, mesmo que passe por cima do pai, por exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.rect{
+	width: 100px;
+	height: 100px;
+}
+
+tendo a opção tambem de reverse no wrap, exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse; (tambem deixando o conteudo reverso do padrao dele)	
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.rect{
+	width: 100px;
+	height: 100px;
+}
+
+e o modo padrao (desativado do wrap) é o nowrap, exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.rect{
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,97 @@
+Para alinha um texto com o outro
+
+transform: translatex (ou) y(-50%); valor positivo ele vai para baixo negativo para cima
+
+    no caso da altura (height), pois o translate esta no eixo y
+
+
+ y
+A!
+l!
+t!
+u!
+r!
+a!--------------x
+    Largura
+
+para poder usar o x e y ao mesmo tempo é  so fazer isso:
+
+transform: translate(-50%,50%); (primeiro vem x e depois o y)
+
+quando usar float nao ficar usando display para nao bagunçar 
+
+1º Maneira de centralizar um texto exemplo:
+
+                           
+html 
+
+<body>
+    <div class="card">
+
+        <div class="c1">
+            Igor Oliveira
+        </div>
+    </div>
+
+        <div class="card">
+
+            <div class="c2">
+                Igor Oliveira
+            </div>
+
+    </div>
+</body>
+
+css
+  <style>
+ .card{
+     float: left;
+     width: 400px;
+     height: 200px;
+     border: 2px solid green;
+     text-align: center;
+ }
+ .c1{
+     background-color: red;
+     line-height: 200px; (colocando na mesma altura do card, assim alinha a linha do texto)
+ }
+    </style>
+
+
+2ºforma de alinha o texto verticalmente
+
+msm html da de cima ^ 
+
+
+.c2{
+     background-color: blue;
+     position: absolute;
+    top: 50%; (esse valor é referente ao pai do c2 o .card
+    transform: translateY(-50%);(esse valor é referente ao conteudo de fato, no caso
+da altura (height), pois o translate esta no eixo y)
+
+
+ }
+
+
+3ºForma
+
+
+html
+<div class="card2">
+                <div>
+                    Igor Oliveira
+                </div>
+
+
+css
+
+ .card2{
+            clear: left;
+            border: 2px solid green;
+            float: left;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+

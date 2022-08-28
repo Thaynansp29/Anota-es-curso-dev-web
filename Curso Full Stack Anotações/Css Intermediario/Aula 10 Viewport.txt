@@ -1,0 +1,6 @@
+para poder funcionar em qualquer dispositivo precisa usar uma meta tag 
+
+
+<head>
+  <meta name=" viewport" content ="device-width,initial-scale1.0"> esta dizendo que o conteudo tem que 
+ter mesmo tamanho do device, deixa nossa pagina responsiva.

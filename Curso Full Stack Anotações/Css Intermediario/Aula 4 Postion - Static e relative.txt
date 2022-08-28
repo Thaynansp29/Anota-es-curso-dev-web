@@ -1,0 +1,25 @@
+static é o padrao faz com que todo elemento se encaixe em baixo do outro elemento 
+se for display block ou do lado se for inline block.
+relative é relativo ao static relativo ao posicionamento padrao
+
+a diferença entre position para marge é que no marge é como se estivesse colocando algo
+no lugar e empurrando o elemento, e no position ele realmente esta movendo o elemneto
+de lugar para outro. e relative nao altera posicionamento dos outros elementos ao 
+redor, se voce colocar por cima de outro elemento, ele vai ficar por cima.
+
+postion:relative;
+bottom:...; vai empurrar  o elemento para cima.
+right:...; vai empurrar mais para a esquerda o elemento.
+left:...; vai empurrar mais para a direira o elemento.
+top:...; vai empurrar mais para a esquerda o elemento.
+
+EXEMPLO:
+
+    css
+.quadrado2{
+    Position: relative;
+    Left:20px;
+    top:20px;
+    background-color:blue;
+}
+

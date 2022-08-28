@@ -1,0 +1,7 @@
+serve para imprimir coisas no google chrome.
+
+a tag para abrir o console é 
+
+dentro do js
+
+console.log("TEXTO");

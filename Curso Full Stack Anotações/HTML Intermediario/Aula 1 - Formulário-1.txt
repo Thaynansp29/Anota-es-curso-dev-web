@@ -1,0 +1,2 @@
+São muito importante para a gente captura emails para ter um campo de contato
+com o dono da pagina, é uma conexão entre frnt end para back end.

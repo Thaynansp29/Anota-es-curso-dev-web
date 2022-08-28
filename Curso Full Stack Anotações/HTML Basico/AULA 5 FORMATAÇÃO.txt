@@ -1,0 +1,27 @@
+<b> é utlizado para deixar os textos dentro da caixa em NEGRITO </b>
+<strong> faz a mesma coisa deixa o texto em negrito, ele sinaliza para o google que esse texto é mais importante </strong>
+<i> deixa o texto em italico </i>
+<em> da enfase na frase </em>
+<mark> faz uma marcação no texto como se fosse um marca-texto </mark>
+<small> deixa o texto um pouco menor </small>
+<del> cria uma linha no texto para expressar que ele foi removido </del>
+<s> mesma coisa que o del, cria uma linha no texto para expressar que ele foi removido </s>
+<ins> cria uma linha so que em baixo do texto fica sublinhado mais utilizada </ins>
+<u> mesma coisa da "ins"</u>
+<sub> é un texo que fica um pouco da linha normal, é mais usado para numero para artigos cientificos </sub>
+<sup> texto que fica um pouco a cima da linha normal usado para isso ² </sup>
+
+<!DOCTYPE html>
+<html>
+         <head>
+              <title>
+              <meta charset="UTF-8"> 
+         </head>
+
+         <body>
+             <h1> Título 1</h>
+             <p> Esse é um <b>texto em negrito</b> </p>
+             
+              <p> Parágrafo </p>
+         </body>
+</html>

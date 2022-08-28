@@ -1,0 +1,23 @@
+<input type= "color" name"cor"> (abre uma caixa de rgb aonde voce seleciona uma cor)
+
+<input type= "date" name"data" max"2018-12-15">(o max é so quando quiser colocar uma data 
+para ir até esse dia)
+
+<input type= "datetime-local" name"data" max"2018-12-15"> (é um calendario com relogio)
+
+<input type= "file" name"arquivo"> (precisa ser post e nao get)
+
+<input type= "number" name"numerico" > (caixa que so pode colocar numeros) 
+(ele pode ser utilizaado para ecomerce, para tipo, selecionar a quantidade de 
+produtos que quer)
+
+<input type= "number" name"numerico" min="5" max="10"> (limitando a quantida que pode ser colocada)
+
+<input type= "range" min ="5" max="10" name"intervalo" > (coloca como se fosse um mixer
+mas numerico dando tambem limites)
+
+<input type= "tell" name"telefone" > (é utilizado para celular)
+
+<input type= "email" name"email" > (ele verifica se realmente é email para poder ser enviado, para fazer
+uma checagem)
+

@@ -1,0 +1,7 @@
+Listas ordenada : tag <ol> <li>item 1</li> </ol> (ordena numericamente a lista)
+Listas não ordenadas : tag <ul> <li>Item 1 </li> </ul> (serve para listar itens que nao 
+precisa seguir ordem especifica)
+
+
+
+tag "li": são os itens das listas

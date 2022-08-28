@@ -1,0 +1,12 @@
+display: none (faz com que um elememnto como se nucna tivesse colocado na tela,
+some as coisas)
+display: block (pular o proximo conteudo para a proxima linha, consigo colocar
+uma largura especifica)
+display: inline (quando fica na mesma linha, ao contrario do block, nao consegue
+mudar a largura e nem altura)
+display: inlineblock (ele tem as caracteristicas do inline mas ele permite
+que mude a altura e a largura)
+
+nunca podemos usar um elemento tipo block dentro de uma div
+nao podemos usar uma div dentro de um paragrafo e nem um paragrafo dentro
+de um paragrafo.

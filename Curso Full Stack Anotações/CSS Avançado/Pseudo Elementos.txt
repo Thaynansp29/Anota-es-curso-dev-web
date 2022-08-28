@@ -1,0 +1,40 @@
+sao comandos que permitem que mudemos o estilo de uma parte do texto por exemplo:
+
+p::first-line{ (assim ele so modifica a primeira linha)
+color:Red;
+}
+
+da para se mudar tudo que tenha a ver com o texto
+
+p::first-letter{ (ele modificar a primeira letra do texto)
+	color:red;
+}
+
+li::before{  (before ele coloca algo antes do conteudo)
+	content:'';
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+	desse modo redirecionamos uma imagem para colocar na bolinha da lista.
+
+li::after{  (after ele coloca algo depois do conteudo)
+	content:'';
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+p::selection{ (ele mudar o estilo quando é selecionado)
+	background-color: yellow;
+	color: orangered;	
+}

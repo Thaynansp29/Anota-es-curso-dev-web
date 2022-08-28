@@ -1,0 +1,36 @@
+para poder alinhar o texto da maneira que quizer, um pouco para esquerda,
+para direita, centraliza:
+text-align: right;
+text-align: center;
+text-align: left;
+Para alinhá certinho o final do texto o famoso justificar o texto é o :
+text-align: justify;
+
+text-transform:uppercase; deixa tudo em maiusculo.
+text-transform:lowercase; deixa tudo em minusculo
+text-transform:capitalize; vai deixar todas as primeiras letras de cada 
+palavra em maiusculo
+text-ident: 35px; dá um espaço no inicio do paragrafo.
+text-decoration: underline; todo o texto fica sublinhado
+text-decoration: overline; a linha fica em cima do texto
+text-decoration: line-through; deixa todo riscado
+text-decoration: underline overline; pode juntar mais de um no texto ao mesmo tempo
+
+^^^^^^^é muito interessante quando esta se trabalhando com links,
+para poder tirar por exemplo a linha de baixo quando se tem um texto
+com link:
+
+
+html                                   css
+<a href""> meu link </a>		a{
+						text-decoration: none;
+					}
+
+letter-spacing:1.2px; é um espaço entre as letras (o padrao é 0 e 
+pode ser negativo)
+line-height: 10px; é a altura entra uma linha e outra.
+word-spacing: 5px; é o espaço de uma palavra com a otura
+text-shadow: 2px 2px 5px black; sao 4 valores o primeiro é qual que vai ser o deslocamento
+para direita, deslocamneto para baixo, raio de desfoque e a cor da sombra
+
+

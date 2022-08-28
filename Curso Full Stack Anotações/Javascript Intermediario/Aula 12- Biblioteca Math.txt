@@ -1,0 +1,115 @@
+O math é utilizado para facilitar na resolução de alguns calculos. ex:
+
+
+let n = Math.PI;
+console.log(n)
+
+(dessa maneira ele calcula o p1)
+
+
+let n = Math.E;
+console.log(n)
+
+(dessa maneira ele calcula uma constante)
+
+
+let n = Math.sqrt(16);
+console.log(n)
+
+(dessa maneira ele calcula a raiz quadrada)
+
+
+let n = Math.pow(2,3);
+console.log(n)
+
+(dessa maneira ele calcula a pontencia, sendo o primeiro numero o numero que quer ser calculado e o segundo a potencia no exemplo está,
+2 elevado ao cubo "2³")
+
+let n = Math.random();
+console.log(n)
+(dessa maneira ele gera um numero aleatorio que vai de 0.0 a 0.99999999999999999999, pode ser multiplicado para poder dar um numero maior 
+por exemplo:)
+
+
+let n = Math.random() * 10;
+console.log(n)
+
+(assim ele tem chance de da um numero entre 0.0 a 0.9999999999 x 10)
+
+
+let n = Math.round( Math.random()*10);
+console.log(n)
+
+(o round faz com que arredonde um numero fazendo com que ele fique inteiro assim gerando um numero de 0 a 10, ele arredonda o numero
+para mais por exemplo 5.5 ele vai arredondar para 6 e se for 5.49 ele vai arredondar para 5)
+
+
+
+let n = Math.floor(5.01);
+console.log(n)
+
+(o floor faz com que arredonde independente o que vinher apos a virgula, nesse caso ele seria 5, se fosse 5.9999, ele novamente seria 5)
+
+
+
+let n = Math.ceil(5.001);
+console.log(n)
+
+(da mesma forma que o floor sendo ao contrario, qualquer numero acima de 5.0 ele vai arredondar para 6.0)
+
+
+Math Object Properties
+Property	Description
+E	Returns Euler's number (approx. 2.718)
+
+LN2	Returns the natural logarithm of 2 (approx. 0.693)
+
+LN10	Returns the natural logarithm of 10 (approx. 2.302)
+
+LOG2E	Returns the base-2 logarithm of E (approx. 1.442)
+
+LOG10E	Returns the base-10 logarithm of E (approx. 0.434)
+
+PI	Returns PI (approx. 3.14)
+
+SQRT1_2	Returns the square root of 1/2 (approx. 0.707)
+
+SQRT2	Returns the square root of 2 (approx. 1.414)
+
+Math Object Methods
+Method	Description
+abs(x)	Returns the absolute value of x
+
+acos(x)	Returns the arccosine of x, in radians
+
+asin(x)	Returns the arcsine of x, in radians
+
+atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+
+atan2(y, x)	Returns the arctangent of the quotient of its arguments
+
+ceil(x)	Returns the value of x rounded up to its nearest integer
+
+cos(x)	Returns the cosine of x (x is in radians)
+
+exp(x)	Returns the value of Ex
+
+floor(x)	Returns the value of x rounded down to its nearest integer
+
+log(x)	Returns the natural logarithm (base E) of x
+
+max(x, y, z, ..., n)	Returns the number with the highest value
+
+min(x, y, z, ..., n)	Returns the number with the lowest value
+
+pow(x, y)	Returns the value of x to the power of y
+
+random()	Returns a random number between 0 and 1
+
+round(x)	Returns the value of x rounded to its nearest integer
+
+sin(x)	Returns the sine of x (x is in radians)
+
+sqrt(x)	Returns the square root of x
+
+tan(x)	Returns the tangent of an angle

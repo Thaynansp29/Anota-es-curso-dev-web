@@ -1,0 +1,29 @@
+para pegar fontes, acessar o google fonts.
+w3schools.com e buscar css@font-face rule para saber quais tipos de fonts
+cada navegador suporta.
+no google fonts quando voce escolher uma, vai gerar um link voce o copia
+e coloca no <head>.
+depois abre uma na parte do html:
+
+<style>
+
+h1{ 
+    font-family: COPIADO DO GOOGLE FONTS	
+
+} 
+
+</style>
+
+
+Em um outro site voce baixa e coloca em algum diretorio da pasta 
+do html:
+
+<style>
+
+ 
+    @font-face{
+        font-family: ... ; coloca um nome para por no font-family em cima^ 
+        src: url(...); Coloca o diretorio da font que voce baixou
+} 
+
+</style>

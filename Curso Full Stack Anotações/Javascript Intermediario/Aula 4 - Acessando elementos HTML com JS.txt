@@ -1,0 +1,16 @@
+para pode acessar um elemento do document que nao sendo uma id:
+
+let p1 = document.getElementById("p1") (o p1 é o id criado no html)
+console.log(p1)
+
+pegando todos os elementos de uma class:
+
+let paragrafos = document.getElementsByClassName("paragrafo") 
+(coloca o nome da class) (aqui o element ficou no plural pq a class pode ser colocada em mais de um elemento enquanto o id so pode ser
+colocado em 1)
+
+
+para poder pegar todas as tags:
+
+let tp = document.getElementsByTagNAme("h1")
+console.log(th)

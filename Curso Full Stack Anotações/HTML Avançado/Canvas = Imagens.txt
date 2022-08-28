@@ -1,0 +1,45 @@
+Para colocar imagem direto no canva pelo javascript:
+
+let tela= document.getElementById("tela");
+
+let ctx = tela.getContext("2d");
+
+let img = new Image();
+img.src = "Local da imagem"
+
+img.onload = desenharImg;
+
+function desenharImg(){
+
+	ctx.drawImage(this,20,20);
+}
+
+para poder mudar o tamanho da imagem podemos fazer de duas maneiras, primeiro:
+
+let tela= document.getElementById("tela");
+
+let ctx = tela.getContext("2d");
+
+let img = new Image();
+img.src = "Local da imagem"
+
+img.onload = desenharImg;
+
+function desenharImg(){
+
+	ctx.drawImage(this,20,20, 100, 100); (COLOCANDO POR AQUI SENDO O PRIMEIRO A LARGURA E O SEGUNDO A ALTURA)
+}
+
+let tela= document.getElementById("tela");
+
+let ctx = tela.getContext("2d");
+
+let img = new Image();
+img.src = "Local da imagem"
+
+img.onload = desenharImg;
+
+function desenharImg(){
+
+	ctx.drawImage(this,20,20, this.naturalWidth/2, this.naturalHeight /2); (ASSIM ELE ESTA DIZENDO PARA PEGAR A LARGURA E ALTURA NATURAL DELE E DIVIDIR POR 2)
+}

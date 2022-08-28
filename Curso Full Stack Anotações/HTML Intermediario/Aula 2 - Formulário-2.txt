@@ -1,0 +1,16 @@
+<form method="GET" action"http://">  (os dados enviados sao enviados para o nosso endereço)
+<form method="POST" action"http://"> (se tiver criando uma pagina de login assim nao aparece os dados do cliente)
+
+action"http://"> (end point, se o endereço for o mesmo do backend so coloca onde ele esta
+exemplo: /cadastro, sem a parte inicial do dominio)
+
+<body>
+
+ <form method= "GET" action="/cadastro">
+	<imput type="text" name="email"> (imput significa colocar algum conteudo no form)
+        <imput type="submit" (Vai ser para enviar aparece um botao)
+
+
+ </form> 
+
+

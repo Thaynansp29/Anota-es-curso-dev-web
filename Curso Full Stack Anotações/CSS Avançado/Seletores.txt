@@ -1,0 +1,64 @@
+* é um seletor que seleciona todos os elementos é mais utilizado para resetar tudo tipo
+
+*{
+	margin:0;
+	padding:0;
+}
+
+colocando uma virgula apos o seletor pode ser colocado mais de elemento exemplo:
+
+p, h1, header{
+	background-color:red;
+}
+
+se colocar algum seletor e logo apos deixar um espaço e colocar algo que esteja dentro desse seletor ele stylisa ambos, exemplo, uma div que dentro dela tem um h1:
+
+div h1{
+	color: red;
+}
+
+se colocar algum seletor e colocar maior que ele faz a mesma coisa que se tivesse o espaço so que com o pai mesmo exemplo se tiver uma div aonde tem h1 e dentro tambem dessa div tenha um
+section com outra h1, se o div > h1, vai pegar somente os h1 que sao filhos da div e nao do section exemplo:
+
+div > h1 {
+	color:red;
+}
+
+se colocar algum seletor e colocar + faz com que pegue o seletor depois dele exemplo: 
+div + h1{
+	color: red;
+}
+ 
+<div> 
+<p>
+</div>
+<h1> [RED] 
+<p>
+
+o que ficaria vermelho é o h1 depois do fechamento da div
+
+para poder pegar todas as tags apos esse seletor colocamos ~ exemplo:
+
+div ~ h1{
+color : red;
+	}
+
+<div>
+<p>
+</div>
+<h1> [red]
+<h1> [red]
+<p>
+<h1> [red]
+
+Para poder usar o atributo como seletor se coloca [] e o atributo dentro exemplo:
+
+[width]{   (assim todos que tiverem esse atributo receberam o style)
+	background-color: green; 
+}
+
+e para deixar mais expecifico e quiser por exemplo 500 width faz dessa maneira:
+
+[width="500"]{
+	backgorund-color:green;
+}

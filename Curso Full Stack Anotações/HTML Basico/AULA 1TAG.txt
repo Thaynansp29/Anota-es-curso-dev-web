@@ -1,0 +1,2 @@
+O QUE É UMA TAG? 
+(abrindo)<nomedatag>MEU TITULO</nomedatag> (fechando)

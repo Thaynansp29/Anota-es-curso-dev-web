@@ -1,0 +1,18 @@
+Para adicionar um conteudo direto do console pelo document pode ser feito assim.
+
+p.innerHTML = "Novo conteúdo" (recebe um html, consegue colocar coisas de html dentro por exemplo h1,h2,h3 p ...) 
+
+tambem dessa forma:
+
+p.innerText = "Conteudo mais novo" (vai mostrar como esta aparecendo na tela, nao mostrando as coisas ocultas)
+
+p.textContent = "Mais novo ainda" (ele mostra da forma que esta no html, com textos oculto ou não)
+
+para acessar um atributo se usa o p.getAttribute("") < o nome do atributo
+
+para mudar um atributo é so fazer p.setAtribbute("") (serve tanto quanto para mudar de atributo quanto para criar um novo)
+
+a diferençã entre textContent, innerText para o innerHTML é que pelo os 2 primeiros conseguimos somente mudar o texto dentro do id
+enquanto o innerHTML muda o id se quiser
+
+innerText vai mostrar somente o que estiver na tela o que foi imprimido e o textContent vai mostrar exatamente como esta no html

@@ -1,0 +1,11 @@
+Comentario serve para guardar informações importantes para os devs, para lembrete ou avisos.
+<!DOCTYPEhtml>
+<html>
+         <head>
+             
+          </head>
+
+         <body>
+<!-- TUDO QUE FICA AQUI DENTRO É UM COMENTARIO -->
+         </body>
+</html>

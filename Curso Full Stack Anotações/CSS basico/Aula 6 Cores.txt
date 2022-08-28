@@ -1,0 +1,6 @@
+Color:rgb(0,0,1...255)
+          red,green,blue
+color:rgba(0,0,0,0.1 0.2 0.3...1)
+           0 é totalmente transparente e 1 opaco
+
+ 

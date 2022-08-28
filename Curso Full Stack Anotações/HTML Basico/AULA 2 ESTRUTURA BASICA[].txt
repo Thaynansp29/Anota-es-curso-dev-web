@@ -1,0 +1,13 @@
+w3schools.com para poder tirar duvidas sobre HTML CSS JS 
+
+(comando inicial do HTML 5) <!DOCTYPEhtml>
+<html>
+         <head>
+              <title>(tudo que fica na barra inicial do site)
+              <meta charset="UTF-8"> (meta)auto fechamento, atributo serve para dar novas caracteristicas para a tag, para dizerr mais cosias para a tag, (UTF-8 É A CODIFICAÇÃO QUE ESTAMOS PASSANDO PARA PAGINA) 
+         </head>
+
+         <body>
+
+         </body>
+</html>

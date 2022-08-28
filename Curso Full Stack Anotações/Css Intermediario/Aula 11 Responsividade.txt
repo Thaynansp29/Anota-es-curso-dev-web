@@ -1,0 +1,3 @@
+Responsividade é a programação se adaptar o que estamos fazendo.
+
+font-size: 10vw (o vw é usando para responsividade, ele se adapta a tela)

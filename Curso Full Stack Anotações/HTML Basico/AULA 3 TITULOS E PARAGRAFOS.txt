@@ -1,0 +1,25 @@
+<h1>...<h6>
+H1 é o titulo principal, se for um artigo é o titulo do artigo, o h2 subtitulo, h3 titulo com menos importancia vai indo dessa forma até h6
+é formal utlizar somente um h1 em cada texto e descalando os H
+<p> <p/> tag de paragrafo 
+h1 pula uma linha automaticamente
+
+
+
+<!DOCTYPE html>
+<html>
+         <head>
+              <title>(tudo que fica na barra inicial do site)
+              <meta charset="UTF-8"> (meta)auto fechamento, atributo serve para dar novas caracteristicas para a tag, para dizerr mais cosias para a tag, (UTF-8 É A CODIFICAÇÃO QUE ESTAMOS PASSANDO PARA PAGINA) 
+         </head>
+
+         <body>
+             <h1> Título 1</h>
+             <h2> Título 2</h>
+              <h3> Título 3</h>
+              <h4> Título 4</h>
+               <h5> Título 5</h> 
+               <h6> Título 6</h>
+              <p> Parágrafo </p>
+         </body>
+</html>

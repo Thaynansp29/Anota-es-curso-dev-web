@@ -1,0 +1,20 @@
+background-color:blue(exemplo); para poder mudar a cor de fundo
+
+background-image: url(o caminho do arquivo aqui dentro de parentes.jpg) ( isso sendo colocado em uma tag, id)
+
+body{
+background-image: url(o caminho do arquivo aqui dentro de parentes.jpg);
+background-repeat:no-repeat; (para fazer com que a imagem nao fique se repitindo no fundo
+background-repeat:repeat-x; (para fazer com que repita somente na horizontal)
+background-repeat:repeat-y; (para fazer com que repita somente na vertical)
+background-size: cover; (ele cobre a pagina inteira ou elemento)
+background-attachment: fixed; (faz com que o fundo da tela desca junto com o scroll)
+background-attachment: scroll; (faz com que o fundo fique parado)
+background-attachment: local; (quase a mesma coisa que o scroll)
+background-position: center; (deixa centralizado)
+
+
+}
+
+
+/* é o comando para comentar no css */

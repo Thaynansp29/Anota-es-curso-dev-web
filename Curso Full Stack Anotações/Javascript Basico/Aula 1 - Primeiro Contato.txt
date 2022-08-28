@@ -1,0 +1,15 @@
+para abrir um arquivo com java script voce utiliza final .js
+
+abrir um js dentro de um html voce abre uma tag chamada script dentro do body exemplo:
+
+<body>
+	<script>
+		alert("Hello World")
+	</script>
+</body>
+
+para linkar o arquivo o html para o js  precisa fazer isso:
+
+<body>
+	<Script scr="..."></script>
+</body>

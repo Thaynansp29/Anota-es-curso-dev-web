@@ -1,0 +1,44 @@
+para poder fazer com que no clique faça com que troque de uma imagem para outra podemos fazer dessa maneira
+
+let image = document.getElmentById(""); < o nome do id>
+
+image.addEventListener("click", function(){
+
+	image.scr= "ENDEREÇO DA OUTRA IMAGEM"
+
+})
+
+			OUTRA MANEIRA DE FAZER A MESMA COISA
+
+
+let image = document.getElmentById(""); < o nome do id>
+
+image.addEventListener("click", function(){
+
+	image.setAttribute("scr", "ENDEREÇO DA OUTRA IMAGEM")
+
+})
+
+Para automatizar por exemplo uma lista numerada 
+
+
+<html>
+<body>
+	<ul id="lista" num="10">
+</body>
+</html>
+<script>
+
+let lista = document.getElementById("lista");
+
+let num = parseInt(lista.getAttribute("num"));
+
+let conteudo = ""
+
+for (let i = 0; i < num; i++) {
+
+	conteudo += "<li>" + i + "</li>";
+
+}
+
+lista.innerHTML = conteudo;

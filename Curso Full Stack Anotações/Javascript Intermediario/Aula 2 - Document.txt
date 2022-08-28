@@ -1,0 +1,2 @@
+paraa poder acessar o html pelo js : 
+ console.log(document);

@@ -1,0 +1,8 @@
+<img src="https... alt=" falar sobre o que é a imagem"> (tag de utilização de imagem) (coloca o endereço da imagem link)
+(tag alt ajuda no SEO, voce precisa explicar o que é imagem)
+
+<img scr="imagens/sorvete_mente.jpg" alt"Sorvete de menta"> (se utliza assim quando a imagem fica na pasta 
+html da mesma forma que utiliza a tag <a>
+
+width largura
+height comprimento

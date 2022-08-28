@@ -1,0 +1,8 @@
+para poder fazer com que mantenha sempre a mesma distancia independente da janela podemos usar o calc sendo o valor em px a quaantidade que quer manter de ambos os lados somados, por exemplo:
+
+.container{
+	width: calc(100% -200px) (aqui ele esta querendo a distancia de 100px de cada lado)
+	height: 100px;
+	background-color: blue;
+	margin: auto;
+}

@@ -1,0 +1,5 @@
+shouldiprefix.com/#filters
+caniuse.com
+
+
+esses sites principalmente o caniuse, fala a compatibilidade dos navegadores

@@ -1,0 +1,1 @@
+caniuse.com (para saber se as funçoes que voce esta colocando da certo no navegador

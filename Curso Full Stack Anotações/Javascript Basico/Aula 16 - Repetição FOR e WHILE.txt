@@ -1,0 +1,16 @@
+FOR serve para a gente repetir alguma coisa um certo numero de vezes, por exemplo:
+
+
+var numero =5;
+
+for ( var vez = 0; vez < numero; vez++){    (tem que usar o ; para separar as setencias)
+
+	console.log("executando o for, pela" + vez + "vez"
+}
+
+console.log("Acabou")
+
+while vai fazer uma verificação como se fosse o else if se for verdadeira ele vai fazer o que 
+tem dentro dele
+
+lembrar sempre de colocar o var++; para nao ficar em um loop infinito e travar a maquina

@@ -1,0 +1,7 @@
+tem como criar uma tag style
+<head>
+                   <style>p{
+                            color:red;}
+                   </style>
+</head>
+(assim coloco todos os <p> na cor indicada

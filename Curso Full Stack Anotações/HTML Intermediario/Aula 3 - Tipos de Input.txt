@@ -1,0 +1,26 @@
+<input type"password" name "senha"> (as palavras ficam com *****)
+<input type"checkbox" name="curso"> (é uma caixa de marca quando se faz uma pergunta
+tipo: salvar senha?)
+
+quando for colocar um checkbox tem que se colocar uma id value para denominar cada
+box exemplo: 
+<input type"checkbox" name="curso" value="op1">
+pergunta 1
+<input type"checkbox" name="curso value="op2">
+pergunta 2
+
+<input type"radio" name="genero" value="m"> masculino
+<input type"radio" name="genero" value="f"> feminino (dessa maneira so da para marcar
+uma das duas opções, tendo o mesmo "name" faz essa função e a caixa de marcação
+vira uma bolinha)
+
+para deixar umas das opçoes ja marcada é so colocar o checked exemplo:
+
+
+<input type"radio" name="genero" value="m" checked> masculino
+
+input reset serve para resetar para apagar todas as marcaçoes e nao precisa de nome
+
+exemplo: <input type"reset" value="limpar"> masculino (o value aqui serve para mudar
+o texto escrito no botao em todos os botoes serve isso.)
+

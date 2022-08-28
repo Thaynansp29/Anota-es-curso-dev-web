@@ -1,0 +1,7 @@
+Constantes têm escopo de bloco, bem como variáveis ​​declaradas usando a palavra- let chave. O valor de uma constante não pode ser alterado
+ por meio de reatribuição (ou seja, usando o operador de atribuição ) e não pode ser redeclarado (ou seja, por meio de uma declaração de
+ variável ). No entanto, se uma constante for um objeto ou array , suas propriedades ou itens podem ser atualizados ou removidos.
+
+
+let permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. Isso é inverso da
+ keyword var, que define uma variável globalmente ou no escopo inteiro de uma função, independentemente do escopo de bloco.

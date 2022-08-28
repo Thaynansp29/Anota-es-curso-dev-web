@@ -1,0 +1,9 @@
+as tag semanticas sao utilizadas para melhorar o SEO, para poder ajudar no rankeamento
+do site pelo google.
+
+<header class="header"> </header>(mesma função da div so ajuda no seo)
+<nav class="nav"> </nav> (navegação do site ,menu)
+<footer> </footer> (rodapé do site)
+<main> </main> (é o conteudo do site, so pode ser utilizado 1x por pagína)
+<section> </section> (vai ser uma sensão do site para poder organizar melhor em sessoes)
+<article> </article>(é um artigo do site)

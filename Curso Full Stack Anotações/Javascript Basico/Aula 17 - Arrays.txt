@@ -1,0 +1,29 @@
+Array é um estrutura de dados que pode armazenar varios dados em sequencias.
+cada elemento do array deve ser separado por uma virgula. 
+Nesse exemplo, todos os elementos sao strings, mas poderiam ser numeros, booleano
+(Vedadeiro ou falso) e etc. Ou seja qualquer outro tipo que ja vims até aqui.
+Inclusive poderia ser uma variavel, um outro array, ou até mesmo um objeto, que veremos futuramente.
+exemplo:
+
+var alunos = new array("igor", "José", "Marcos", "Mariana")
+console.log(alunos)
+
+(para selecionar o igor nos teriamos que colocar na posição 0 ja que todos array começa no 0
+e termina no 8 isso se chama index ou em port. index)
+exemplo:
+
+console.log(alunos[0]);
+
+outra forma de se fazer um array:
+
+var alunos = ["igor", "José", "Marcos", "Mariana"];
+console.log(alunos);
+
+para poder fazer com que o js organize o array da forma crescente precisa
+
+alunos.sort()            ASSIM ELE FICA EM ORDEM 
+
+para poder buscar dentro do array usando a string ou numero: indexOf();
+
+var pos = alunos.indexOf(6); (para strings)
+valores.sort(Number) (para numeros)

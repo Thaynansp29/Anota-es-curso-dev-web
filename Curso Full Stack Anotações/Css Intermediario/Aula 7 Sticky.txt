@@ -1,0 +1,5 @@
+sticky= grudento
+
+ele continua sendo referencia para os outros nao é invisivel, ele é usado apra da um
+aviso, oferta, promoção... ele fica fixa idenpedente do movimento da barra,
+a diferença dele com o fixed é 

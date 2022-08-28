@@ -1,0 +1,10 @@
+Absolute: precisa ter um position: relative; pra poder saber para onde vai,
+se nao tiver ele vai obdecer ao static da pagina e nao de nenhum elemento,
+ele meio que tira o elemento da jogada, ficando "invisivel" para os outros elementos.
+exemplo:
+css
+.quadrado-blue{
+position: absolute;
+left: 100px
+basckground: blue;
+}

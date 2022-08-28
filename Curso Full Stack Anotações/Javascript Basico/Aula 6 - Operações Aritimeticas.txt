@@ -1,0 +1,9 @@
++ adição
+- subtração
+* Multiplicação
+/ Divisão
+%Módulo (ele divide sem deixar o numero em decimal, por exemplo:
+tem 1 mouse e divide para duas pessoas, nao tem como dividir esse mouse para duas pessoas
+entao o resultado é 1 é o resto da divisão,.
+++ Incremento (Ele incrementa 1 ao resultado)
+-- Decremento (Ele decrementa 1 ao resultado)

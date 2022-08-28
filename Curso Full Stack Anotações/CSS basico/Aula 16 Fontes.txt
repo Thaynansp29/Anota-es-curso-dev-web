@@ -1,0 +1,25 @@
+Sao 3 familias genericas de fontes, com serifa, sem serifa e monospace.
+
+            HTML
+p{
+  font-family: arial;
+}
+
+se caso essa fonte que voce coloque nao rode no navegador do cliente
+voce precisa colocar uma fonte de backup,
+
+               HTML
+p{
+     font-family: arial, "comic Sans MS", sans-serif; Precisa colocar " quando a
+     					  fonte tem mais de uma palavra.
+      font-style: italic;
+      font-style: normal;
+      font-size: 22px; Para alterar o tamanha da font
+      font-weight: bold; para ficar em negrito, pode ser colocar numeração
+para selecionar a escuridao do negrito, 400 é padrao 800 é o valor do
+bold, dependendo da familia da fonte tem uma diferença bem clara
+entre os valores.
+
+     font-variant: small-caps; Faz com que todas as letras fiquem 
+em maiuscula, mas da para notar a diferença entre as que ja estavam
+maiuscula antes de ativar.

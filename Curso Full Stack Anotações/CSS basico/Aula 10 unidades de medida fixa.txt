@@ -1,0 +1,38 @@
+
+     HTML                          css
+  
+
+<div id="cm"></div>         #cm{
+                               background-color: blue ;
+                               width:1cm;
+                               height:1cm;
+                               }
+
+<div id="mn"></div>            #mn{
+                               background-color: blue ;
+                               width:1mn;
+                               height:1mn;
+                               }
+ (polegar)                               
+<div id="in"></div>            #in{ 
+                               background-color: blue ;
+                               width:1in;
+                               height:1in;
+                               }
+(pixel)
+<div id="px"></div>            #px{
+                               background-color: blue ;
+                               width:1px;
+                               height:1px;
+                               }    
+(ponto)
+<div id="pt"></div>            #pt{
+                               background-color: blue ;
+                               width:1pt;
+                               height:1pt;
+(picas)                               }    
+<div id="pc"></div>            #pc{
+                               background-color: blue ;
+                               width:1pc;
+                               height:1pc;
+                               }    

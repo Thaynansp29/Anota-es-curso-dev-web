@@ -1,0 +1,31 @@
+Existe uma propriedade chamada flex-flow, faz com que nos economize linhas, podendo juntar o column ou row, com o wrap na mesma linha, por exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-flow: row wrap;(podendo tambem ser o column, e ambos tambem sendo reverse juntos, row-reverse wrap-reverse, column-reverse wrap-reverse)	
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.rect{
+	width: 100px;
+	height: 100px;
+}

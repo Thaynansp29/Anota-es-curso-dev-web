@@ -1,0 +1,10 @@
+overflow é  quando a gente tem um conteudo dentro desse elemento so que o conteudo é 
+maior que o elemento.
+css
+
+overflow: visible; (É o padrao aparece toda parte, todo conteudo passando ou nao)
+overflow: hidden; (ele esconde toda parte que passa da area do elemento)
+overflow: scroll; (cria um escroll no elemento dando para ver todo o conteudo)
+overflow: auto; (assim ele coloca o scroll automaticamente e aonde for necessario)
+overflow-y:scroll ( ficando somente na lateral)
+overflow-x: scroll(ficando somente por baixo)

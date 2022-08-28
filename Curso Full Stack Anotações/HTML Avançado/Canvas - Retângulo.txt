@@ -1,0 +1,29 @@
+let tela = document.getElemenById("tela");
+
+let ctx = tela.getContext("2d")
+
+ctx.fillRect(10 10, 100, 200) (SAO 4 COORDENADAS PARA FAZER O RETANGULO A 1 É A DISTANCIA DA BORDA ATÉ AONDE  VOCE QUER QUE O RETANGULO COMEÇE, A 2 É O AFASTAMENTO DA BORDA, 
+3 É A LARGURA E O 4 ALTURA.)
+
+^ ESSE RETANGULO É O RETANGULO PREENCHIDO POR DENTRO
+
+ctx.strokeStyle = "red";
+ctx.strokeRect(10, 10, 100, 200);
+
+^ esse é o retangulo  com o fundo vazio transparente.
+
+PARA FAZER UM RETANGULO PREENCHIDO  COM UMA COR POR DENTRO E A BORDA DE OUTRA COR FAZ ASSIM:
+ctx.rect(10, 10, 100, 200)
+
+ctx.fillStyle = "blue"(cor de fundo)
+ctx.lineWidth =5;(para aumentar a grossura da borda)
+
+ctx.strokeStyle ="red"(cor da bordar
+
+ctx.fill();
+
+ctx.stroke
+
+E COMO CRIAR UM QUADRADO AONDE CONSIGO LIMPAR ALGUM DESENHO QUE  VOCE FEZ?
+
+ctx.clearRect(20, 20, 30, 30);

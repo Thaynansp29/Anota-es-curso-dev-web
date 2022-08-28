@@ -1,0 +1,60 @@
+Propriedades
+As propriedades do objeto window tem como propósito modificar os aspectos em relação à janela do navegador e de suas frames, se existentes.
+
+Closed: Esta propriedade tem a retorna um valor booleano indicando se a janela foi fechada.
+
+DefaulStatus: Com esta propriedade conseguimos definir uma mensagem padrão que será exibida na barra de status do navegador.
+
+Document: Esta propriedade possui todas as características da página HTML, como por exemplo, cor das letras, cor do fundo, imagens que possamos utilizar como plano de fundo.
+
+Frames []: Array de frames em uma janela.
+
+History: Esta propriedade contém uma lista representando as URLs que o usuário já visitou. Podemos acessar todas as URLs visitadas pelos usuários atribuindo os seguintes métodos a essa propriedade: current, next e previous.
+
+InnerHeigth: Com esta propriedade podemos definir ou obter a altura da área onde o conteúdo é apresentado, não a altura do navegador em si.
+
+InnerWidth: Com esta propriedade podemos definir ou obter a largura da área onde o conteúdo é apresentado, não a largura do navegador em si.
+
+Length: Informa a quantidade de frames existentes em uma janela.
+
+Location: Esta propriedade tem informações referentes ao endereço corrente. Um exemplo é a propriedade hostname, que retorna o nome do servidor que está hospedando a página carregada. Nessa propriedade temos mais dois métodos:
+
+Reload: Que força o navegador a carregar a página.
+Replace: Que carrega a URL informada.
+Name: Podemos utilizar para definir ou obter o nome da janela.
+
+Navigator: Esta propriedade contém informações sobre o navegador, nome, versão, e outras informações. O objeto navigator possui também um método interessante:
+
+javaEnabled(): Que informa se o navegador está com o Java habilitado.
+Opener: Esta propriedade pode ser usada a partir de uma sub-janela para fazer referência a janela pai que criou essa sub-janela.
+
+OuterHeight: Com esta propriedade podemos definir ou obter a altura da área onde o conteúdo é apresentado junto com os menus e barra de status do navegador, caso existente.
+
+OuterWidth: Com esta propriedade podemos definir ou obter a largura da área onde o conteúdo é apresentado junto com os menus e barra de status do navegador, caso existente.
+
+PageXOffset: Com esta propriedade podemos definir ou retornar a posição X corrente da página em relação ao canto esquerdo superior da área de conteúdo da janela.
+
+PageYOffset: Com esta propriedade podemos definir ou retornar a posição Y corrente da página em relação ao canto esquerdo superior da área de conteúdo da janela.
+
+Parent: Esta propriedade representa a janela pai ou frame-pai.
+
+Screen: Esta propriedade contém informações sobre a tela do usuário. Invocando alguns métodos desse objeto podemos obter informações tais como.
+
+screen.availHeight: Retorna a altura da tela do usuário, incluindo a barra de status do Windows, em pixels.
+screen.availwidth: Retorna a largura da tela do usuário incluindo a barra de status do Windows em pixel.
+ScreenLeft: Retorna a posição horizontal da janela com relação à tela (screen).
+
+ScreenTop: Retorna a posição vertical da janela com relação à tela (screen).
+
+ScreenX: Semelhante ao screenLeft, retorna o valor da coordenada X (horizontal) da janela em relação à tela.
+
+ScreenY: Semelhante ao screenTop, retorna o valor da coordenada Y (vertical) da janela em relação à tela.
+
+Self: Esta propriedade representa a janela atual ou frame.
+
+Status: Esta propriedade define uma mensagem que será apresentada na barra de status.
+
+Top: Esta propriedade representa a janela superior do navegador.
+
+Diferença entre as propriedades status e defaultstatus
+Essas duas propriedades são utilizadas para atribuir uma mensagem à barra de status, a diferença é que a propriedade defaultstatuspode ser utilizada como um objeto simples, apesar de ser uma propriedade do objeto window. Além disso, a propriedade defaultstatus nos permite armazenar uma mensagem padrão para ser exibida, ou seja, aquela que voltará a aparecer após modificações temporárias provocadas por mensagens usadas na propriedade status.

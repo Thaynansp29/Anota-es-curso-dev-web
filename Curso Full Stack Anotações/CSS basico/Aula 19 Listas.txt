@@ -1,0 +1,73 @@
+html                                      css
+<body>                               ul{
+
+<ul> (lista sem ordem)                  list-style-type: none; (para retirar o . que fica na parte inicial da lista)
+<li>item 1</li>                         list-style-type: disc; (é o padrao que fica com o ponto na frente)
+<li>item 2</li>                         list-style-type: circle; (é o circulo com o fundo branco)
+<li>item 3</li>                         list-style-type: square; (é um quadrado no inicio da lista)
+                                        }
+                                         ol{
+                                         list-style-type: upper-roman;(numero romano no inicio da lista, em maiusculo)
+                                         list-style-type: lower-roman; (numero romano no inicio da lista, em minusculo)
+<ol>                                     list-style-type: lower-alpha;(o inicio da lista fica numerada com alfabeto ex: a. b. c. em minusculo)
+                                         list-style-type: upper-alpha;(o mesmo do de cima so que em maiusculo)
+<li>item 1</li>                          
+<li>item 2</li>
+<li>item 3</li>
+</ol>
+
+todos os tipos de list-style-type:
+
+VALUE	        DESCRIPTION
+disc	        Default value. The marker is a filled circle
+armenian	The marker is traditional Armenian numbering
+circle		The marker is a circle
+cjk-ideographic	The marker is plain ideographic numbers
+decimal		The marker is a number
+decimal-leading-zero	The marker is a number with leading zeros (01, 02, 03, etc.)
+georgian	The marker is traditional Georgian numbering
+hebrew		The marker is traditional Hebrew numbering
+hiragana	The marker is traditional Hiragana numbering
+hiragana-iroha	The marker is traditional Hiragana iroha numbering
+katakana	The marker is traditional Katakana numbering
+katakana-iroha	The marker is traditional Katakana iroha numbering
+lower-alpha	The marker is lower-alpha (a, b, c, d, e, etc.)
+lower-greek	The marker is lower-greek
+lower-latin	The marker is lower-latin (a, b, c, d, e, etc.)
+lower-roman	The marker is lower-roman (i, ii, iii, iv, v, etc.)
+none		No marker is shown
+square		The marker is a square
+upper-alpha	The marker is upper-alpha (A, B, C, D, E, etc.)
+upper-greek	The marker is upper-greek
+upper-latin	The marker is upper-latin (A, B, C, D, E, etc.)
+upper-roman	The marker is upper-roman (I, II, III, IV, V, etc.)
+
+
+
+PARA MUDAR O INICIO DA LISTA PARA ALGUMA IMAGEM QUE ESTA NA PASTA DO DIRETORIO
+
+
+html                                      css
+<body>                               ul{
+
+<ul> (lista sem ordem)                  list-style-image: url("o local da foto");
+<li>item 1</li> 
+
+
+PARA FAZER UMA BORDA NA LISTA E COLOCAR O SIMBULO JUNTO COM O ELEMENTO E A BORDA.
+html                                      css
+<body>                               ul{
+
+<ul> (lista sem ordem)                  list-style-image: url("o local da foto");
+<li>item 1</li>                          
+ 					
+					li{
+
+					border: 5px solid;
+
+					}
+
+list-style-position: inside; (faz com que o simbulo entre para dentro da caixa)    					
+
+A lista normalmente vem afastado da tela, podemos ajeitar isso com o margin:...0px; padding...0px;
+

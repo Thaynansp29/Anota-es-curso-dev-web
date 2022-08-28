@@ -1,0 +1,43 @@
+A diferença entre objetos para array é que em vez de abrir e fechar cochete, abre e fecha
+chaves.
+
+Uma maneira de acessar o objeto exemplo:
+
+Var aluno = {
+	nome: " Joao", nota1: 7.5
+}
+
+console.log(aluno.nota1)
+ou 
+console.log(aluno["nome])
+
+quando colocar um array dentro do objeto
+
+var aluno = {
+	nome: "Joao"
+	notas: [7.5, 5.0]
+}
+
+console.log(aluno["notas"][0])
+
+(alunos é uma var) [notas é o objeto que dentro tem um array] [0 é a orde que voce que buscar 
+o array].
+
+Uma propriedade de um objeto pode receber um valor de qualquer tipo que vimos até aqui. Incluindo
+Arrays e até mesmo um outro objeto.
+
+para incluir um objeto que ja esta aberto é so fazer assim
+
+var aluno = {
+	nome: "joao",
+	notas: [7.5, 5.0]
+}
+
+aluno.matricula= 12345;
+
+aluno["sobrenome"]= "oliveira";
+
+aluno é var o sobrenome é a classe do objeto que esta sendo incluso e oliveira é o conteudo.
+
+
+

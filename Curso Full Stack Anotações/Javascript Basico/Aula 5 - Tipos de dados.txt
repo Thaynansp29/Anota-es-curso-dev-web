@@ -1,0 +1,22 @@
+para comentar em js é so usar // nao precisa fechar
+
+se for mais de uma linha o comentario é so usar /* para abrir e para fechar */
+
+string é uma cadeia de caracteres, espaço, nenhum para usar uma string é so usar ""
+
+\n quebra a linha forçando ir para a proxima linha
+
+a diferença entre usar numero como string e para number é que o numero em string vai ser 
+reconhecida como caractere e nao como numero, por exemplo
+
+("1" + "1"); vai da 11 (aqui ele vai juntar o caracteres)
+
+(1 + 1) vai da 2 (aqui ele vai resolver como uma função matematica)
+
+
+
+boolean ( é true ou false, ele permite fazer operações logicas)
+null (é quando tem certeza que dentro da função esta vazia)
+underfined (é quando a função fica indefinida qaundo nao sabe o que tem dentro)
+number (é mais usado como função matamatico)
+string (é usado como caracteres)

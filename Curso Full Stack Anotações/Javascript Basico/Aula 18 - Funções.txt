@@ -1,0 +1,41 @@
+A funçao da um apelido para um bloco de comando, quando quiser executar exatamente esse bloco
+ja usa o apelido dele,
+para criar uma função e nomear, se usa o function exemplo:
+
+function media(){
+	var nota1 = 10;
+	var nota2 = 8;
+	var media = (nota1 + nota2) / 2
+	console.log(media);
+}
+
+e para executar a função:
+	
+	(o n1 e n2 dentro do parenteses se chama de argumento, ele é usado para facilitar
+na chamada da função, pois assim so faz colocar o valor la em baixo na ordem do argumento
+e da para utiliza-la de varias formas sem precisar refazer a função inteira.)
+
+function media(n1, n2){
+	var nota1 = n1;
+	var nota2 = n2;
+	var media = (nota1 + nota2) / 2
+	console.log(media);
+}
+
+media(6, 7);
+media(8, 7);
+
+Tambem tem a função return que serve para finalizar uma função e retornar algum resultado desejado
+por exemplo:
+
+
+function media(n1, n2){
+	var nota1 = n1;
+	var nota2 = n2;
+	var media = (nota1 + nota2) / 2
+	
+	return media; (assim ele esta mandando retornar o resultado em vez de usar console.log
+}
+
+var resultado1 = media(6, 7);
+var resultado2 = media(8, 7);

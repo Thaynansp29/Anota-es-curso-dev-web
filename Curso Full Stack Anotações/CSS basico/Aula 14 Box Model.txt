@@ -1,0 +1,53 @@
+------------------------------------------------------------------------:-  -
+                           Margin                                       :
+________________________________________________________________________:
+                            Border                                      /
+________________________________________________________________________/
+                           Padding                                      :
+------------------------------------------------------------------------:
+                           					        :
+                           Content				        :
+								        :
+------------------------------------------------------------------------:
+			   Padding					/        /
+________________________________________________________________________/
+								        /					
+			   Border				        /	/
+________________________________________________________________________/
+								        :
+			    Margin					:       :
+------------------------------------------------------------------------:  -
+
+O centro tem o conteudo, padding é o espaçõ entre a borda e o conteudo,
+margin é o espaço entre a borda e algum outro conteudo que tenha.
+
+
+html                               	  css
+<body>					body{
+                                          padding: 0;
+                                           margin: 0;}
+                                        .container{
+                                        background-color: red;
+                                         padding:5px; (da uma afastada com a borda de baixo)
+                                         border:5px; solid blue;}
+<div class="container">	                 margin: 10px;
+					  .conent{	
+     <div class="content">              background-color:#ddd;
+          conteudo                      border: 5px solid green;
+       </div>                           pading: 5px;}
+     </div>
+
+</body>
+            
+outline funcionma como uma borda mas nao altera o box model, ele nao vai 
+ser um elemento que vai fazer diferença no box model ele vai ser ignorado[
+
+o box-sizing ele faz com que qualquer coisa que esteja dentro dele respeite
+o limite que voce colocou no width e height.
+o tamanho do nosso elemento vai respeitar a borda entao  a borda vai passar 
+ser referencial para esse width e height, exemplo:
+
+box-sizing: border-box;
+
+colocando margin: auto; faz com que ele fique automatico do tamanho da pagina e centraliza o conteudo
+         

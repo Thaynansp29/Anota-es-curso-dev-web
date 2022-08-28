@@ -1,0 +1,11 @@
+para poder incrementar mais de um numero, em vez de um em um para aumentar quanto quiser
+exemplo:
+
+a += 5; 
+em vez de fazer a++; a++; a++; a++; a++; funciona com todas as operações matematicos
+exemplo:
+
+a -= 5;
+a *= 5;
+a /= 5;
+a %= 5;

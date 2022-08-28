@@ -1,0 +1,57 @@
+A estrutura condicional switch permite executar um bloco de código diferente de acordo com cada opção (cada case) especificada. Seu uso é indicado quando
+ os valores a serem analisados nessas condições são pré-definido
+
+
+
+var nota1 = 9.0;
+var nota2= 1.8;
+
+var media = (nota1 + nota2)/2
+
+var conceito= ""
+
+if (media >=8){
+
+    conceito = "Ótimo";
+}
+
+else if(media > 6.5){
+    conceito= " Bom";
+}
+
+else{
+    conceito = "Regular";
+}
+
+console.log (media);
+console.log (conceito);
+
+
+
+switch(conceito){
+
+	case "ótimo":
+		console.log("")...
+	break;
+	case "bom"
+		console.log("")...
+	break;
+	case "regular":
+		console.log("")...
+	break;
+	default:
+}
+
+Expressao é a expressão a ser comparada com cada case declarado dentro do switch. 
+Caso o valor obtido na expressão seja a igual ao que for declarado no case, o bloco de 
+código é executado.
+
+case é o valor que será comparado à expressão.
+
+break é a palavra reservada que finaliza a execução do switch. Caso não especificada no
+ final do bloco de código em execução, as linhas dos blocos de código seguintes também
+ serão executadas.
+
+Default é a palavra reservada que define o bloco de código a ser executado se nenhum dos 
+cases atenderem à expressão declarada no switch.
+

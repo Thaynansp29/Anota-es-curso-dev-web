@@ -1,0 +1,3 @@
+Da para se criar uma string tanto quanto com as aspas simples ou a duplas
+' ' " " , para poder usar aspas duplas como se fosse um caracter normal a 
+string tem que começar com aspas simples.

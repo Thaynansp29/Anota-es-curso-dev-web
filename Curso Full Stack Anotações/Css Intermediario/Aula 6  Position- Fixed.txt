@@ -1,0 +1,10 @@
+position: fixed; (fica fixo em relacao a tela vai ficar em relacao ao viewport, 
+(oque vemos na tela). a diferença dele com o absolute é que o fixed ele fica realmente
+fixo na tela, tipo o botao do whatsapp do meu site, e quanto o absolute, ele vai ficar
+preso no lugar exato aonde foi deixado. 
+
+  Position Fixed : Mantém o posicionamento fixo em relação ao "viewport" (janela)
+
+Observação importante: Quando falamos de position absolute, que se refere ao posicionamento e ao tamanho do elemento  pai,
+ o tipo de posicionamento do pai é importante. Para qualquer outro tipo de relacionamento (fixo, relativo) o tipo de 
+posicionamento do pai não importa.

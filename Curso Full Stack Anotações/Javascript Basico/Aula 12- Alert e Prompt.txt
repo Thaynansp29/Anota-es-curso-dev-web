@@ -1,0 +1,13 @@
+Alert faz com que crie um alerta na pagina tendo alguma mensagem que voce escreveu
+
+
+alert("TEXTO")
+
+Prompt faz com que abre uma alert com uma caixa de mensagem assim podendo escrever alguma coisa dentro
+jutando ele com alert pode fazer uma pergunta e resposta. exemplo:
+
+var numero = prompt("Digite um numero)
+
+var dobro = numero + numero
+
+alert("O dobro de " + numero + é + dobro)

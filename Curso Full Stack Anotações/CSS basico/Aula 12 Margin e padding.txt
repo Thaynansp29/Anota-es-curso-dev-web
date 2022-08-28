@@ -1,0 +1,28 @@
+margin ela distancia um elemento da sua borda de uma forma mais milimetrico
+
+
+
+       HTML                 		  CSS
+ <div id="base">		#base{
+ 				height:10px;
+				background: red;	
+				}
+
+   <div id="container">        #container{
+	</div>			background-color: blue;
+				color:white;
+				margin-top: 10px
+
+padding tambem da um distanciamento do elemento para dentro exemplo:
+
+
+       HTML                 		  CSS
+ <div id="base">		#base{
+ 				height:10px;
+				background: red;	
+				}
+
+   <div id="container">        #container{
+	</div>			background-color: blue;
+				color:white;
+				padding-top: 10px

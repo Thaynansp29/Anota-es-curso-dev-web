@@ -1,0 +1,44 @@
+:root, dar para criar variaveis e simplificar nossa vida com css, por exemplo:
+<html>
+<body>
+
+<h2 class"h">Título 1</h2
+<p class"p1">Paragrafo 1</p>
+<p class"p1">Paragrafo 2</p>
+<p class"p1">Paragrafo 3</p>
+<p class"p1">Paragrafo 4</p>
+<p class"p1">Paragrafo 5</p>
+
+<div class"sqr1"></div>
+<div class"sqr2"></div>
+
+</body>
+</html>
+
+
+:root{
+	--var-color:gray; (setando uma variavel com uma cor para por nos <p> que quiser usar)
+	--square-size: 200px; (setando uma variavel com um valor em px para poder utilizar nos quadrados das divs)
+}
+
+.p2{
+	color: var(--var-color);
+	font-size:25px;
+}
+
+.p3{
+	color: var(--var-color);
+	font-size: 14px;
+}
+
+.sqr1{
+	width: var(--square-size);
+	height: var(--square-size);
+	background-color: black;
+}
+.sqr2{
+	width: var(--square-size);
+	height: var(--square-size);
+	background-color: green;
+}
+

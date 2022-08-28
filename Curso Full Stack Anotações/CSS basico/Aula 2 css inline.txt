@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="style.css"> coloca no head para poder linkar o html com css 

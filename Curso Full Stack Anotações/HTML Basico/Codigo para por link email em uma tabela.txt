@@ -1,0 +1,2 @@
+<p><a href="mailto:someone@example.com">COLOCA O EMAIL AQUI</a></p> para colocar email com link
+<a href= "COLOCA O LINK AQUI"> para poder colocar link em algum texto

@@ -1,0 +1,4 @@
+criar um novo file chamado style.css e linkar um file com outro, é um link diferente,
+ele nao vai aparecer na tela.
+<head>
+<link href="style.css" (é o nome do file) rel="stylesheet"> (liga o file css com o file html)

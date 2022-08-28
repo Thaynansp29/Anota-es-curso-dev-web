@@ -1,0 +1,126 @@
+flex box = uma caixa flexiva, "flexiva" o bastante para se adptar ao elemento pai deles, por padrao o display: flex; vem com o flex-direction: row; que é uma "GRANDE LINHA" na vertical,
+e se adaptando no que tem no conteudo, exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row;	(deixaria o conteudo uma linha na vertical por toda container, ele vem assim por padrao)	
+
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+tem o flex-direction: column; aonde faz com que o conteudo vire uma linha na horizontal, exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: column; (Fazendo com que o conteudo "os filhos" fiquem em uma linha na horizontal cobrindo toda area)	
+
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+
+Podemos forçar ele ter uma altura e largura fazendo com que ele fazer as linhas na vertical usando o row ou na horizontal usando o column, por exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row;	(deixaria o conteudo uma linha na vertical por toda container, ele vem assim por padrao)	
+
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+.rect{
+	width: 100px;
+	height: 100px;
+}
+
+Também existe outra propriedade do flex-direction: row-reverse; e o column-reverse; fazendo com que fique na horizontal ou na vertical, mas começando da forma reversa, no caso em vez de 
+ser de cima para baixo seria, de baixo para cima no caso do column e da direta para esquerda do row. Por exemplo:
+
+<body>
+<div class"container">
+	<div class"rect r1">1</div>
+	<div class"rect r2">2</div>
+	<div class"rect r3">3</div>
+</div>
+</body>
+
+.container{
+	display:flex;
+	flex-direction: row-reverse;	
+	background-color:gray;	
+	height:400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.rect{
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,22 @@
+Margin: auto; (deixa o conteudo centralizado, idependente do tamanho da janela.)
+
+margin-left: auto;(Faz com que ele fica no canto esquerdo idependente do tamanho da janela)
+margin-right: auto; (mesma coisa que o de cima so que para o lado direito,
+OS DOIS JUNTOS FAZEM A MESMA COISA QUE SOMENTE AUTO)
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^NÃO DA CERTO COM IMAGEM^^^^^^^^^^^^^
+PARA DA CERTO COM IMAGEM PRECISAMOS USAR DISPLAY.
+
+display: block;
+margin: auto;
+
+Para poder mudar a centralizacao de uma imagem com o display em inline-block a
+tag img precisa esta dentro de uma <div> exemplo:
+
+html						#container{
+<div id="Container">				     text-align: center;
+<img scr"./...">				}
+</div>
+
+
+

@@ -1,0 +1,19 @@
+O operador ternario é parecido com if e else so que mais simples, ele normalmente é utilizado
+´para fazermos uma verificação simples e colocar um valor dentro de uma variavel
+
+var idade = 20;
+
+idade >= 18 ? console.log("Pode") : console.log("Não pode")
+
+o operador ternario é a "?" começa com a variavel ,o valor, coloca o operador, depois imprime
+a setença dela, coloca dois pontos e o false da setença 
+
+outro exemplo:
+
+var idade =16;
+
+var pode = idade >= 18? true : false
+
+console.log(pode)
+
+de uma maneira bem mais simplificada

@@ -1,0 +1,17 @@
+<table>
+    <tr>
+         <th>Nome</th> </tr> </table>
+         <th>Telefone</th> </tr> </table>
+         <th>Email</th> </tr> </table>
+    </tr>
+    <tr> 
+        <td> Igor</td>
+        <td> 99999999</td>
+        <td> contato@programador.com</td>
+     </tr>
+</table>   
+
+(<tr> significa o cabeçalho da tabela)
+(<th> significa as categorias da tabela)
+(<table> significa para da inicio a tabela)
+(<td> o conteudo da tabela)

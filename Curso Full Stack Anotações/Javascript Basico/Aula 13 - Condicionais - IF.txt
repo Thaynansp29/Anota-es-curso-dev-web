@@ -1,0 +1,46 @@
+São codigos que a gente consegue verificar se  uma coisa for verdade tem uma ação e se for
+falsa tem outra função, por exemplo, um site que venda bebidas alcolicas, para voce poder 
+comprar bebidas voce precisar ser maior de 18 anos o IF serve para isso, if em ingles signifca
+"se"  exemplo:
+
+var idade = 17;
+
+if (idade >= 18) (precisa está entre parenteses)
+	console.log("pode")
+
+
+
+console.log("não pode")
+
+ELSE signfica em ingle se não, no caso do if ele esta dizendo se ele for maior de 18 anos
+pode comprar a bebida e usamos o else em seguida para dizer se não for maior que 18 anos
+não pode exemplo:
+
+
+var idade = 17;
+
+if (idade >= 18) (precisa está entre parenteses)
+	console.log("pode")
+
+else
+	console.log("não pode")
+
+Se caso voce queira fazer mais de uma linha precisa colocar um bloco de comando {} para o 
+computador entender qual parte inicia e termina do IF e do ELSE por exemplo:
+
+
+var idade = 17;
+
+if (idade >= 18){ (precisa está entre parenteses)
+	console.log("pode")
+	console.log("Qual é o seu pedido?");
+}
+else{
+	console.log("não pode")
+	console.log("Volte futuramente");
+}
+
+para poder colocar mais uma faixa de comando precisa
+
+
+

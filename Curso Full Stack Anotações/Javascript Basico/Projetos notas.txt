@@ -1,0 +1,26 @@
+function alunos(nome, n1, n2, t) {
+  return {
+    nome: nome,
+    nota1: n1,
+    nota2: n2,
+    trabalho: t,
+    media: function () {
+      return (this.nota1 + this.nota2 + this.trabalho) / 2;
+    },
+  };
+}
+
+var turma = [
+  alunos("Maria", 7, 6.5, 0),
+  alunos("João", 4.5, 3, 2),
+  alunos("Thaynã", 7.5, 4.5, 2),
+  alunos("Estefane", 8.3, 3.2, 2),
+  alunos("Estela", 7.5, 0, 0),
+  alunos("Ester", 10, 3.5, 2),
+];
+var aluno = turma[0];
+console.log(media);
+
+turma.forEach(function (elemento) {
+  console.log(elemento);
+});

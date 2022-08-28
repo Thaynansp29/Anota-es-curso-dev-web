@@ -1,0 +1,28 @@
+pode ser usado para qualquer tipo de elemento, alem de imagem
+
+rodar a imagem em alguns graus tanto para direita quanto para esquerda, exemplo:
+
+img{
+	width:420px;
+	transform: rotate(45Deg);  (para direita)
+	transform: rotate(-45Deg);   (para esquerda)
+}
+
+scale faz com que aumente ou diminua a imagem por exemplo:
+
+img{
+	width:420px;
+	transform: scale(2) (vai aumentar a imagem)
+	transform: scale(0.5) (vai diminuir a imagem)
+	transform: scale(0.5, 1) (o primeiro é horizando e o segundo vertical)
+}
+
+skew é como se fosse o rotate mas da uma sensação de 3D, por exemplo:
+
+
+img{
+	width:420px;
+	transform: skew(30Deg); (para direita)
+	transform: skew(-30Deg); (para esquerda)
+	transform: skew(-45Deg, 30Deg) (O primeiro valor vira para esquerda e o segundo valor para a direita)
+}
