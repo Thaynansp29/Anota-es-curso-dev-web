@@ -1,0 +1,27 @@
+Vamos poder mudar a ordem dos elementos sem ter que mexer no html é o order, ele precisa que tenha o display: flex; ativado, tendo como valores dependendo da quantidade de elementos por 
+exemplo:
+
+.container{
+	display:flex;
+	background-color:darkgrey;
+	height:400px;
+	color:white;
+}
+
+.r1{
+	order:3;/* (dessa forma mudando o 1 para o terceiro lugar) */
+	background-color:red;
+}
+.r2{
+	order:1; /*  (dessa forma mudando o 2 para o primeiro lugar)  */
+	background-color: blue;
+}
+.r3{
+	order:2; /* (dessa forma mudando o 3 para o segundo lugar) */
+	background-color:green;
+}
+
+.rect{
+	width:150px;
+	height:150px;
+}

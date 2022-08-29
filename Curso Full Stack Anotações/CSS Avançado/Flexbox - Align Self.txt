@@ -1,0 +1,26 @@
+O align self, faz com que mudemos somente um filho de posição sem ter que precisar usar o align-item por exemplo:
+
+.container{
+	display:flex;	
+	background-color:darkgrey;
+	height: 400px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	align-self:flex end; /* (faz com que somente esse conteudo desça) */
+	background-color:blue;
+}
+
+.r3{
+	background-color:green;
+}
+
+.rect{
+	widht: 150px;
+	height: 150px;
+}

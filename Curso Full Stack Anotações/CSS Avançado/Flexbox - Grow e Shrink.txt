@@ -1,0 +1,63 @@
+flex-shring, ele tem dois valores, 0 e 1, 0 faz com que ele perca a "elasticidade" e o 1 padrão, ele é usado no filho, no conteudo e não no pai exemplo:
+
+.conteiner{
+	display: flex;
+
+	background-color:darkgray;
+	height:290px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+	flex-grow:1; /* (ele funciona com dois valores; 0 e 1, sendo 0 padrão e 1, faz com que complete o resto do container assim que a tela aumenta de tamanho do padrão) */
+}
+
+.r3{
+	flex-shrink:0; /* (ele tem dois valores, 0 e 1, 0 faz com que ele perca a "elasticidade" e o 1 padrão, ele é usado no filho). */
+	background-color:green;
+}
+
+.rect{
+	wdith:150px;
+	height:100px;
+}
+
+flex-grow:0; ele tem como padrão o 0, e tendo dois valores;0 e 1, ele funciona como que ao contrario do flex-shrink:0; tendo como valor 1 ele vai completar o container assim que a tela for 
+aumentanda, se todos os conteudos tiverem o flex-grow:1; não precisa colocar width como valor, porque assim todos teram o mesmo tamanho, e o conteudo ficará responsivel.
+
+Para poder fazer com que um conteudo seja maior que o outro usando o flex-grow, so é preciso colocar um valor a mais que os outros por exemplo, quero que o r3 seja maior que o r2 e r1 
+e o r2 maior que o r1 e menor que r3:
+
+
+
+.conteiner{
+	display: flex;
+
+	background-color:darkgray;
+	height:290px;
+	color:white;
+}
+
+.r1{
+	background-color:red;
+	flex-grow:1;
+}
+
+.r2{
+	background-color:blue;
+	flex-grow:2;
+}
+
+.r3{
+	flex-grow:3; 
+	background-color:green;
+}
+
+.rect{
+	height:100px;
+}

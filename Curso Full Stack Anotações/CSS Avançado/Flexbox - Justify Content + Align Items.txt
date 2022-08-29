@@ -1,4 +1,45 @@
+o justify-content: faz com que mudemos as posições do flex por exemplo: justify-content:flex-end;  faz com que ele fique grudado no canto direito da tela sem mudar a ordem de apresentação.
 
+.container{
+display: flex;
+flex-direction: row;
+justify-content: flex-end; /* ( faz com que ele fique grudado no canto direito da tela sem mudar a ordem de apresentação). */
+justify-content: center;/* (empurra todos os conteudos para o centro(meio)). */
+justify-content: flex-start; /* ( é o padrão). */
+justify-content: space-between; /* (faz com que os conteudos deem um espaço entre eles). */
+o justify-content: space-around; /*(faz com que os conteudos fiquem separados, O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens adjacentes).*/
+justify-content: space-evenly; /* (faz com que os conteudos fiquem separados, com o espaçamento igual entre eles.)  */
+align-item: center; /* (Faz com que o conteudo fique alinhado exatamente no centro da tela so que junto com o justify-content:center;) */
+align-item: stretch; /* (É o padrão desse atributo se caso nao passemos altura se estiver usando o row ou largura se estiver usando o column) */
+background-color: darkgrey;
+height: 400px;
+color:white;
+}
+
+.r1{
+background-color:red;
+}
+.r2{
+background-color:blue;
+}
+.r3{
+background-color:green;
+}
+.rect{
+width:100px;
+height:100px;
+}
+
+se caso colocarmos o row-reverse junto com justify-content: flex-end; faz com que joguemos o conteudo para esquerda mas da ordem invertida.
+
+o padrão do justify-content é o : flex-start;
+o justify-content: center; empurra todos os conteudos para o centro(meio)
+o justify-content: space-between; faz com que os conteudos deem um espaço entre eles.
+o justify-content: space-around; faz com que os conteudos fiquem separados, O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens 
+adjacentes.
+o justify-content: space-evenly; faz com que os conteudos fiquem separados, com o espaçamento igual entre eles.
+Para poder alinhar exatamente no centro da tela tanto na horizontal e na vertical se usa o align-item: center;
+O padrão do align-item: stretch; 
 
 
 Esses abaixo são as opções possíveis:
