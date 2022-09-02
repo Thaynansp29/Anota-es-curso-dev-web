@@ -1,0 +1,18 @@
+para fazer animações precisa de 3 coisas a 1 é criar a  animação, 2 dizer qual propriedade quer mudar e 3 quanto tempo vai levar a propriedade vai passar do estado a para o estado b
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	from { background-color: red;}(a cor que está)
+	to { background-color: blue}(e para qual que ela vai)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor;(nome da animação)
+	animation-duration: 3s; (o tempo da animação)
+}

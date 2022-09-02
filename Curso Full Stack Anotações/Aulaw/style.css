@@ -1,29 +1,11 @@
-.container{
-    height: 500px;
-    display: grid;
-    background-color: black;
-    padding: 10px;
-    color: white;
-    grid-template: auto auto / auto auto auto;
-    grid-gap:10px;
-    justify-items:center;
-    align-items: center;
-    justify-content: flex-end;
-}   
-/*  */
-.r1{
-    background-color: red;
+@keyframes changeColor {
+    from {background-color: red;}
+    to{background-color: blue;}
 }
-
-.r2{
-    background-color: blue;
-}
-.r3{
-    flex-grow: 1;
-    background-color: green;
-}
-
-.rect{
-    width: 100px;
-    height: 100px;
+.box{
+width: 200px;
+height: 200px;
+border-style: solid;
+animation-name: changeColor;
+animation-duration: 3s;
 }

@@ -1,0 +1,51 @@
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	grid-template: auto auto autp auto / auto auto auto auto auto auto;
+	
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+.item1{
+	grid-column-start:1;(É para sinalizar aonde começa o conteudo e em relação a coluna horizontal)
+	grid-column-end : 3;(É a para sinalizar aonde termina o conteudo e em relação a coluna horizontal, so que ele vai até o inicio, entao se quer até o final da coluna 6 tem que por 3)
+	grid-row-start:2;(É para sinalizar aonde começa o conteudo e em relação a linha vertical)
+	grid-row-end:4;(É para sinalizar aonde termina o conteudo e em relação a linha vertical)
+}
+
+.item2{
+	grid-column-start:1;(É para sinalizar aonde começa o conteudo e em relação a coluna horizontal)
+	grid-colum-end:7;(É a para sinalizar aonde termina o conteudo e em relação a coluna horizontal, so que ele vai até o inicio, entao se quer até o final da coluna 6 tem que por 7)
+}
+
+.item3{
+	grid-column-end: span 4; (É para sinalizar aonde voce quer que ele se espanda até um certo local, sem precisar colocar o inicio)
+}
+
+.item4{
+	grid-column-start:4;
+	grid-column-end:7;
+}
+
+.item5{
+	grid-row-start:3;
+	grid-column-start:3;(para fazer com que fique na frente do 4 pode se colocar os dois tipos de start, como so queremos ocupar uma linha nao precisa colocar o end)
+}
+
+.item6{
+	grid-column-end: span 6;(para espandir ele até o final do container)
+}
+.rect{
+width:100px;
+height:100pox
+}
