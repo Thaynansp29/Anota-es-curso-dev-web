@@ -1,0 +1,28 @@
+da forma bem direta a diferença entre justify-items e align-items para justify-content e align-content é que o item ele deixa o conteudo solto e longe um do outro e o content faz com que 
+o conteudo fique junto um do outro, exemplo:
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	grid-template: 100px 100px / auto auto auto;
+	grid-gap: 15px; /*(cria como se fosse um padding dentro do conteudo tanto na vertical quanto na horizontal)*/
+	justify-content: center;
+	align-item:center;
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+.rect{
+width:100px;
+height:100pox
+}

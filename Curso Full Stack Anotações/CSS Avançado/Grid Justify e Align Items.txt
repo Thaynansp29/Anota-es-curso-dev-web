@@ -1,0 +1,56 @@
+da para se usar o justify-items, para poder mover o conteudo quase que da mesma maneira do flex box, por exemplo:
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	grid-template: 100px 100px / auto auto auto;
+	grid-gap: 15px; /*(cria como se fosse um padding dentro do conteudo tanto na vertical quanto na horizontal)*/
+	justify-item:center;(assim deixando o conteudo centralizado)
+}
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+.rect{
+width:100px;
+height:100pox
+}
+
+Tambem tem o align-item, so que ele faz as mesmas coisas só que na vertical, por exemplo:
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	grid-template: 100px 100px / auto auto auto;
+	grid-gap: 15px; /*(cria como se fosse um padding dentro do conteudo tanto na vertical quanto na horizontal)*/
+	justify-item:center;(assim deixando o conteudo centralizado na horizontal)
+	align-items: center;(assim deixando o conteudo centralizado na vertical)
+}
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+.rect{
+width:100px;
+height:100pox
+}

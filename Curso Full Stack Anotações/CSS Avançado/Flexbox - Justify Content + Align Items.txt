@@ -9,8 +9,8 @@ justify-content: flex-start; /* ( é o padrão). */
 justify-content: space-between; /* (faz com que os conteudos deem um espaço entre eles). */
 o justify-content: space-around; /*(faz com que os conteudos fiquem separados, O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens adjacentes).*/
 justify-content: space-evenly; /* (faz com que os conteudos fiquem separados, com o espaçamento igual entre eles.)  */
-align-item: center; /* (Faz com que o conteudo fique alinhado exatamente no centro da tela so que junto com o justify-content:center;) */
-align-item: stretch; /* (É o padrão desse atributo se caso nao passemos altura se estiver usando o row ou largura se estiver usando o column) */
+align-items: center; /* (Faz com que o conteudo fique alinhado exatamente no centro da tela so que junto com o justify-content:center;) */
+align-items: stretch; /* (É o padrão desse atributo se caso nao passemos altura se estiver usando o row ou largura se estiver usando o column) */
 background-color: darkgrey;
 height: 400px;
 color:white;

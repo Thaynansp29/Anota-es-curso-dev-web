@@ -1,0 +1,76 @@
+<body>
+
+<div class="container">
+	div class="rect r1">1</div>
+	div class="rect r2">2</div>
+	div class="rect r3">3</div>
+	div class="rect r1">4</div>
+	div class="rect r2">5</div>
+	div class="rect r3">6 </div>
+</div>
+
+</body>
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	
+	grid-template-rows: auto auto; /*(assim ele faz as dimençoes automaticamente e ira fazer 2 linhas)*/
+	grid-template-columns: auto auto auto; /*(assim ele faz as dimenções automaticamente e ira fazer 3 colunas)*/
+}
+
+.r1{
+	background-color:red;
+}
+
+.r2{
+	background-color:blue;
+}
+.r3{
+	background-color:green;
+}
+
+.rect{}
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	
+	grid-template-rows: auto auto; /*(assim ele faz as dimençoes automaticamente e ira fazer 2 linhas)*/
+	grid-template-columns: 10% auto auto; /*(assim ele faz as dimenções automaticamente menos o que tem 10% ele dividirar 90% entre as outras duas)*/
+}
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	
+	grid-template-rows: auto auto; /*(assim ele faz as dimençoes automaticamente e ira fazer 2 linhas)*/
+	grid-template-columns: auto 150px auto; /*(podendo tambem ter valores fixos como px)*/
+}
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	
+	grid-template-rows: auto auto; /*(assim ele faz as dimençoes automaticamente e ira fazer 2 linhas)*/
+	grid-template-columns: 1fr 3fr 1fr/*(existe tambem essa unidade de medida que so é utilizado no grid, ela significa que fração, a coluna 2 vai ter 3x a maior que as outras duas)*/
+}
+
+Podemos também simplificar as linhas e colocar as linhas e colunas em uma so linha de codigo, dessa forma:
+
+.container{
+	color:white;
+	display: grid;
+	padding: 10px;
+	background-color: gray;
+	
+	grid-template:200px 100px / 1fr 2fr 1fr; /*(sendo os dois primeiro as linhas e os 3 ultimos as colunas, sendo separados por uma barra /)*/
+}

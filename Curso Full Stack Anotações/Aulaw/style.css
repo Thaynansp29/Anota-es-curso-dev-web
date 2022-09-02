@@ -1,11 +1,15 @@
 .container{
-    display: flex;
- 
-
-    background: darkgray;
-    height: 400px;
+    height: 500px;
+    display: grid;
+    background-color: black;
+    padding: 10px;
     color: white;
-}
+    grid-template: auto auto / auto auto auto;
+    grid-gap:10px;
+    justify-items:center;
+    align-items: center;
+    justify-content: flex-end;
+}   
 /*  */
 .r1{
     background-color: red;
@@ -20,6 +24,6 @@
 }
 
 .rect{
-    width: 200px;
+    width: 100px;
     height: 100px;
 }
