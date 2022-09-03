@@ -1,0 +1,21 @@
+Pode haver mais estados para as animações, podemos colocar % no lugar do from, para dizer
+quando começar exatamente, 0%, 10%, 20%...
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	0%{ background-color: red;}(quando se inicia)
+	50% {background-color: yellow}(outro estagio da animação)
+	100% { background-color: blue}(e para qual ele vai terminar)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor;(nome da animação)
+	animation-duration: 6s; (Aumentando mais o tempo da animação)
+}

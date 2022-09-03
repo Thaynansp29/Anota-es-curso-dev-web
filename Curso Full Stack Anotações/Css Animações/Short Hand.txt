@@ -1,0 +1,4 @@
+Tem uma maneira de fazer a animação toda em só uma linha de codigo 
+
+animation: "name" "duration" "timing-function" "delay" "direction" "fill mode"
+animation: changeColor 3s linear 0s 1 normal forwards;

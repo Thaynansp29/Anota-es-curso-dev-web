@@ -1,0 +1,20 @@
+Podemos tambem mudar a largura do container:
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	0%{ background-color: red;width:200px;}(quando se inicia ele fica no tamanho normal)
+	50% {background-color: yellow; width:400px;}(ele vai esticar para 400px)
+	100% { background-color: blue; width:600px;}(e finaliza esticando mais para 600px)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor;(nome da animação)
+	animation-duration: 6s; (Aumentando mais o tempo da animação)
+}

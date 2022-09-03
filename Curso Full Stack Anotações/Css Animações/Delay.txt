@@ -1,0 +1,25 @@
+temos como colocar outra propriedade na nossa animação, que é o delay, ele dá um atraso 
+animation-delay:2s; (colocando o tempo que quer que ele atrase)
+tem como colocar negativo nesse valor do delay, assim faz com que a animação começa adiantada
+por exemplo se o animation-duration:6s; e colocarmos animation-delay: -3s; ele vai ter 
+adiantado 50% do animação, então começando no yellow com width de 400px.
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	0%{ background-color: red;width:200px;}(quando se inicia ele fica no tamanho normal)
+	50% {background-color: yellow; width:400px;}(ele vai esticar para 400px)
+	100% { background-color: blue; width:600px;}(e finaliza esticando mais para 600px)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor;(nome da animação)
+	animation-duration: 6s; (Aumentando mais o tempo da animação)
+	animation-delay:-3s;(adiantando nossa animação em 50%)
+}

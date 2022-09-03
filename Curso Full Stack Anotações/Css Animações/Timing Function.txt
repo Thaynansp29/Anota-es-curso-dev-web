@@ -1,0 +1,68 @@
+Para fazer uma animação que faça com que se mova para alguma direção primeiro precisa que
+o position esteja em relative declarar para aonde vai e quanto
+
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes move {
+	0% {left: 0px;}
+	100% {left: 300px;}
+}
+.box{
+	position:relative;
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name: move;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+O linear vai na mesma velocidade do inicio ao fim(do meio chega igual aos outros 2)
+o ease começa devagar, depois fica muito rapido e volta a ficar lento antes de terminar (primeiro a chegar)
+o ease-in começa um pouco de vagar e mantem a velocidade(ultimo a chegar)
+o ease-out começa rapido e no final ele fica de vagar mas chegando ao mesmo tempo do linear(do meio chega igual aos outros 2)
+o ease-in-out começa de vagar e termina de vagar(do meio chega igual aos outros 2)
+
+
+<body> 
+	<div class ="box div1">Linear</div>
+	<div class ="box div2">Ease</div>
+	<div class ="box div3">Ease-in</div>
+	<div class ="box div4">Ease-out</div>
+	<div class ="box div5">Ease-in-ou</div>
+
+</body>
+
+@keyframes move {
+	0% {left: 0px;}
+	100% {left: 300px;}
+}
+.box{
+	position:relative;
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name: move;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+.div1{
+	animation-timing-function: linear;
+}
+.div2{
+	animation-timing-function:ease;
+}
+.div3{
+	animation-timing-function:ease-in;
+}
+.div4{
+	animation-timing-function:ease-out;
+}
+.div5{
+	animation-timing-function:ease-in-out;
+}

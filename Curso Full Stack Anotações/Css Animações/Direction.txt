@@ -1,0 +1,29 @@
+Tem como fazer com que comecemos ao contrario do padrão com animation-direction:reverse;
+tem como fazer com que quando colocamos para a animação ficar se repetindo ele va do 0% para 
+o 100% e do 100% para o 0%, alternando entre eles com animation-direction: alternate;
+E tem como juntar os dois, reverse com alternate, com a propriedade: 
+animation-direction: alternate-reverse;
+
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	0%{ background-color: red;width:200px;}(quando se inicia ele fica no tamanho normal)
+	50% {background-color: yellow; width:400px;}(ele vai esticar para 400px)
+	100% { background-color: blue; width:600px;}(e finaliza esticando mais para 600px)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor; (nome da animação)
+	animation-duration: 3s; 
+	animation-direction: reverse; (reverte as ordens da animações)
+	animation-direction: alternate; (ele alterno do 0% a 100% e do 100% ao 0%)
+	animation-direction: alternate-reverse; (junta o reverse com o alternate)
+	animation-iteration-count: 3; (precisa ter algum valor para o alternate funcionar)
+}

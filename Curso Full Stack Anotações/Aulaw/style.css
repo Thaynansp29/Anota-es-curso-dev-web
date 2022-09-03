@@ -1,11 +1,37 @@
 @keyframes changeColor {
-    from {background-color: red;}
-    to{background-color: blue;}
+    0% {background-color: red;}
+    25%{background-color: yellow; R}
+    50%{background-color: pink;}
+    75%{background-color: black;}
+    100%{background-color: blue;}
+}
+
+@keyframes move {
+    0%{left: 0px;}
+    100%{left: 300px;}
 }
 .box{
+position: relative;
 width: 200px;
 height: 200px;
 border-style: solid;
-animation-name: changeColor;
+animation-name: move , changeColor;
 animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+
+.div1{
+    animation-timing-function:linear ;
+}
+.div2{
+    animation-timing-function:ease ;
+}
+.div3{
+    animation-timing-function:ease-in ;
+}
+.div4{
+    animation-timing-function:ease-out ;
+}
+.div5{
+    animation-timing-function:ease-in-out ;
 }

@@ -1,0 +1,32 @@
+Para fazer com que ele fique no ultimo frame da animação quando terminar, usamos: 
+animation-fill-mode: forwards;
+tambem tem a opção de quando colocar o delay ele ficar com uma animação inicial, sem que ele
+fique vazio como é o padrão animation-fill-mode: backwards;
+
+e tem a opção de ter ambas juntos que é animation-fill-mode: both
+
+
+<body> 
+	<div class ="box"></div>
+
+</body>
+
+@keyframes changeColor {
+
+	0%{ background-color: red;width:200px;}(quando se inicia ele fica no tamanho normal)
+	50% {background-color: yellow; width:400px;}(ele vai esticar para 400px)
+	100% { background-color: blue; width:600px;}(e finaliza esticando mais para 600px)
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border-style:solid;
+	animation-name:changeColor; (nome da animação)
+	animation-duration: 3s; 
+	animation-direction: reverse;
+	animation-fill-mode: forwards; (faz com que no final ele se mantenha no ultimo frame)
+	animation-fill-mode: backwards; (faz com que no inicio ele se mantenha no primeiro frame)
+	animation-delay: 2s;(para que o backwards funcione precisa está com o delay ativo)
+	animation-fill-mode: both; (significa ambos, faz com que ative os dois ao mesmo tempo)
+
+}
