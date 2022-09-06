@@ -1,0 +1,38 @@
+o bind serve para da sentindo o this, por exemplo:
+
+function speakGeneric(){
+	console.log(this.sound);
+}
+
+let dog ={
+	sound: "AU AU"
+	speak: speakGeneric
+}
+
+let cat ={
+	sound: "Miau"
+	speak: speakGeneric
+}
+
+dog.speak();
+cat.speak();
+
+speakGeneric(); (Ele vai da como definido por o this não tem sentindo sem ser usado como dog ou cat) por isso usando o bind, exemplo:
+
+function speakGeneric(){
+	console.log(this.sound);
+}
+
+let dog ={
+	sound: "AU AU"
+	speak: speakGeneric
+}
+
+let cat ={
+	sound: "Miau"
+	speak: speakGeneric
+}
+
+let bindedFunction = speakGeneric.bind(cat);
+
+bindedFunction(); (vai da Miau)

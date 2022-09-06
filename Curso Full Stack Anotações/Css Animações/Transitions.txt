@@ -1,0 +1,29 @@
+<body>
+
+
+<div class="btn">click</div>
+
+</body>
+
+.btn{
+	display: inline-block;
+	padding:20px
+	background: #428BCA;
+	color: #fff;
+	font-size:30px;
+	
+	transition-property: background-color; padding;
+	transition-duration: 500ms, 1s;(o primeiro sendo o background e o sendo o padding)
+	transition-delay: 100ms; (dando um delay na animação)
+	transition-timing-function: ease;
+
+	transition: background-color 500ms 1s ease-out, padding 3s; (Short code, o primeiro seria a proriedade, o segundo a duração o terceiro é o delay e o quarto a função)
+
+}
+
+.btn:hover{ (fazendo a animação começar após o mouse massar pela div)
+	background-color:#2248CA;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+

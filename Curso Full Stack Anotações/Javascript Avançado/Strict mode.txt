@@ -1,0 +1,27 @@
+Se declararmos uma variavel sem usar o o proprio var ,dessa maneira:
+
+x =3 
+console.log(x)
+
+ele se cria como se tivesse declarado o var, isso dentro de uma function tem modo diferente, se colocarmos var x = 3, ele ficará somente local, dentro da function, mas se nao colocarmos o var
+ele vira automaticamente global, podendo ser acessada de qualquer lugar, exemplo:
+
+function imprimir(){
+	x=3
+	console.log(x)
+}
+
+imprimir();
+console.log(x); (dando para acessar tanto dentro da function quanto fora dela, isso nao seria possivel se tivessemos colocar var x=3)
+
+teria como fazer com que o javascript obrigasse a você declarar todas as variaveis, dessa forma:
+
+"use strict";
+
+function imprimir(){
+	x=3
+	console.log(x) (vai da um erro avisando que o x nao está definido)
+}
+
+imprimir();
+console.log(x)  (vai da um erro avisando que o x nao está definido)

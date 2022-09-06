@@ -1,0 +1,15 @@
+A arrow function tem que ser colocada dentro de uma variavel da mesma forma que a function anonima, exemplo:
+
+let dobro = (x) => {  (a arrow é simbolizada como =>)
+	console.log(2 * x);
+}
+
+dobro(7);
+
+Se caso a arrow tivesse somente um argumento como o exemplo acima, podemos tirar os () do X ficando: let drobro = x =>...
+
+Se caso a função so faça retornar um valor nao precisa nem colocar as {}, nem () e nem a palavra return, por exemplo:
+
+let dobro = x => 2 * x;
+
+console.log(dobro(8));

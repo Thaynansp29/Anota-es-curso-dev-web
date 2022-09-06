@@ -1,37 +1,20 @@
-@keyframes changeColor {
-    0% {background-color: red;}
-    25%{background-color: yellow; R}
-    50%{background-color: pink;}
-    75%{background-color: black;}
-    100%{background-color: blue;}
+.btn{
+    display: inline-block;
+    padding: 20px;
+    background: #428bca;
+    color: #fff;
+    font-size: 30px;
+
+    transition-property: background-color, padding;
+    transition-duration: 500ms, 1s;
+    transition-delay: 100ms;
+    transition-timing-function: ease;
+
 }
 
-@keyframes move {
-    0%{left: 0px;}
-    100%{left: 300px;}
-}
-.box{
-position: relative;
-width: 200px;
-height: 200px;
-border-style: solid;
-animation-name: move , changeColor;
-animation-duration: 3s;
-animation-fill-mode: forwards;
-}
+.btn:hover{
+background-color: #2248ca;
+padding-left: 30px;
+padding-right: 30px;
 
-.div1{
-    animation-timing-function:linear ;
-}
-.div2{
-    animation-timing-function:ease ;
-}
-.div3{
-    animation-timing-function:ease-in ;
-}
-.div4{
-    animation-timing-function:ease-out ;
-}
-.div5{
-    animation-timing-function:ease-in-out ;
 }
