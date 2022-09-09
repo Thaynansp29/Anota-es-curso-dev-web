@@ -1,0 +1,21 @@
+ Map serve para adicionar ou modificar um array ja pronto, por exemplo:
+
+function novoAluno(nome, idade) {
+	return { nome, idade}
+}
+
+let alunos = [
+	novoAluno("Mario", 23),
+	novoAluno("José", 45),
+	novoAluno("Marcia", 29),
+	novoAluno("João", 35),
+]
+
+function alunoDaquiA5Anos (aluno){
+	return{
+	nome: aluno.nome,
+	idade: aluno.idade + 5 (Dessa maneira o array na parte da idade vai ser acrescentada 5 anos a mais)
+  }
+}
+
+console.log(alunos.map(alunoDaquiA5Anos)); (ele pega a function que adiciona e imprime)

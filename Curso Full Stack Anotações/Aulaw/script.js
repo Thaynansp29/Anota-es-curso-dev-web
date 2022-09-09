@@ -1,3 +1,3 @@
-let titulos = document.querySelectorAll("[title]");
+let dobro = (x) => 2 * x;
 
-console.log(titulos);
+console.log(dobro(2));

@@ -1,0 +1,24 @@
+o filter serve literalmente para filtar o que voce quiser do array, por exemplo:
+
+function novoAluno(nome, idade){
+	return {nome, idade}
+}
+
+let alunos = {
+	novoAluno("Mario", 23),	(alunos dentro da array)
+	novoAluno("José", 45),
+	novoAluno("Marcia", 29),
+	novoAluno("Joao", 35)
+}
+
+function temMenosde30(aluno){  (função para puxar os alunos abaixo de 30 anos)
+	return aluno.idade < 30
+}
+
+function temMaisde30(aluno) {	(função para puxar os alunos acima de 30 anos)
+	return aluno.idade > 30
+}
+
+let alunosComMenosde30 = alunos.filter(temMaisde30)  (o filter sendo usado com a função de cima)
+
+console.log(alunosComMenosde30) 
