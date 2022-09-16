@@ -1,0 +1,37 @@
+Sempre que precisamos pegar um dado que não está no nosso sistema, um dado que muda, a gente usa o fetch para pegar esse resultado, por exemplo:
+
+<body>
+
+<form>
+	<input id="valor" type="text">
+	<input type="submit" value="Converter" onclick="converter">
+</form>
+
+<h1 id="resultado"></h1>
+
+</body>
+
+<script>
+let url = "" (o url do api)
+
+function converter(){
+	let input = document.getElementById("valor");
+	let valor = input.value;
+	console.log(valor);
+}
+
+fetch(url)
+	.then((res) =>{
+	return res.json()
+})
+
+.then((data) => {
+	console.log(data)
+	let rate = data.rates.BRL;
+	
+})
+ </script>
+
+O método json() que utilizamos, é um método do ojbjeto response. Esse objeto tem outros tipos de atributos e métodos que podemos conferir aqui:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Response

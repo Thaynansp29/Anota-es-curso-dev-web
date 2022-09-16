@@ -1,0 +1,19 @@
+O reduce, vai reduzir toda as entradas de um array em uma unica entrada, essa entrada pode ser somatorio, media, string, o que quiser, por exemplo:
+
+function novoAluno(nome, idade){
+	return{ nome, idade }
+}
+
+let alunos = [
+	novoAluno("Mario", 23),
+	novoAluno("José", 45),
+	novoAluno("Marcia", 29),
+	novoAluno("Joao", 35),
+]
+
+function idadeDaTurma(nomezao, aluno) {
+	return nomezao + aluno.nome;
+}
+
+console.log(alunos.reduce(idadeDaTurma, 0) (se colocarmos o 0 da forma que está ele vai da o resultado certo que é 132, se colocarmos algum nomero ele vai somar com esse)
+console.log(alunos.reduce(idadeDaTurma, "") (se colocarmos somente os "" ele vai pegar todos os nomes dos alunos, se escrever algo dentro vai concatenar com os nomes)

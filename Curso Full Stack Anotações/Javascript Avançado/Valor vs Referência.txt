@@ -1,0 +1,73 @@
+ No Javascript ele recebe esses dois tips valores primitivos ou referencia, na parte dos valores mesmo voce substituindo ele mantem os valores, exemplo:
+
+let idadeA = 15;
+
+let idadeB = idadeA;
+
+idadeB = 10;
+
+nesse caso a idadeA continua sendo 15,pois number é um valor primitivo junto com  strings, verdadeiro ou falso.
+
+nesse outro exemplo, vai ser usado como referencia alunoB vai ser referencia do alunoA, assim mudando o valor do alunoA, exemplo:
+
+let alunoA = {nome: "Igor", idade: "15"};
+
+let alunoB = alunoA;
+
+alunoB.idade = 25;  (assim tanto alunoB quanto alunoA sao 25, pois ele virou referencia, se fosse valores primitivos isso nao aconteceria)
+
+array tambem é usado como referencia, exemplo:
+
+let turmaA = ["Igor", "Jose", "Paula"];
+
+let turmaB = turmaA;
+
+turmaB.push("Joao") (tanto turmaA quanto turmaB vao ter o mesmo resultado, pois turmaB está sendo referencia para turmaA)
+
+Para quando nao quiser que algo seja referente ao outro, podemos usar o slice (Fatiar, cortar) ele retira o efeito da referencia, por exemplo:
+
+
+
+
+let turmaA = ["Igor", "Jose", "Paula"];
+
+let turmaB = turmaA.slice(); (assim o turmaA continua tendo só o que colocamos sem adicionar o conteudo da turmaB)
+
+turmaB.push("Joao")
+
+outra maneira de fazer isso é colocando [...turmaA];, por exemplo:
+
+
+let turmaA = ["Igor", "Jose", "Paula"];
+
+let turmaB = [...turmaA];
+
+turmaB.push("Joao")
+
+com objeto podemos fazer dessa maneira, exemplo:
+
+let alunoA = {nome: "Igor", idade: "15"};
+
+let alunoB = object.assign({}, alunoA); (Dessa maneira o alunoA não é alterado pelo alunoB)
+
+alunoB.idade = 25;
+
+tambem da para se fazer dessa maneira com {...alunoA}, por exemplo:
+
+let alunoA = {nome: "Igor", idade: "15"};
+
+let alunoB = {...alunoA}
+
+alunoB.idade = 25;
+
+Atribuição por valor, faz uma cópia do elemento original, e qualquer alteração na cópia não vai refletir no original.
+
+Atribuição por referência, não faz cópia, é como se desse um novo apelido para o objeto original, qualquer modificação no novo elemento altera também o original.
+
+
+
+
+
+
+
+

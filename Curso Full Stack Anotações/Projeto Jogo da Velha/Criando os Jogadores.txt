@@ -1,0 +1,66 @@
+<body>
+<h1> jogo da velha</h>
+
+<div class="stage">
+	<div>
+		<div id="0" class="square">
+		<div class="0"></div>	</div>  (essa div simboliza o jogador 1)
+		<div id="1" class="square"> <div class="x"></div></div> (essa outra div simboliza o jogador 2)
+		<div id="2" class="square"></div>	
+	</div>
+	<div>
+		<div id="3" class="square"></div>  (os ids vão ser simbolizados para cada quadrado do tabuleiro)
+		<div id="4" class="square"></div>
+		<div id="5" class="square"></div>	
+	</div>
+	<div>
+		<div id="6" class="square"></div>  (os ids vão ser simbolizados para cada quadrado do tabuleiro)
+		<div id="7" class="square"></div>
+		<div id="8" class="square"></div>	
+	</div>
+</div>
+</body>
+
+
+
+body{
+	text-align: center;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	background-color: beige;
+	border: 1px solid gray;
+	display: inline-block;
+}
+.o{
+	position:relative;
+}
+.o:after{
+	position:absolute;
+	content: "\1F6E1";
+	font-size:50px;
+	line-height:100px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.x{
+position:relative;
+}
+.x:after{
+	position:absolute;
+	content: "\2694"; (é o codigo para por o emoji)
+	font-size:50px;
+	line-height:100px;
+	top:0; (colocando todos os position em 0 centralizamos)
+	bottom:0;
+	left:0;
+	right:0;
+}

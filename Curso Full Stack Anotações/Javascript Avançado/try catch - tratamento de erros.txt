@@ -1,0 +1,9 @@
+Para poder fazer com que quando ocorra algum erro as outras aplicações não fiquem ocultas podemos usar o try catch, por exemplo:
+
+try{  (vai verificar se tem algum erro)
+	console.log(nome);(vai da um erro dizendo que o nome não está definido)
+}	catch(err) {	(se caso tiver algum erro ele vai aparecer a mensagem que colocamos e identificar o erro, mas o console log la em baixo de boa noite não vai ficar oculto)
+	console.log("Houve um erro", err)
+}
+
+console.log("Boa noite");

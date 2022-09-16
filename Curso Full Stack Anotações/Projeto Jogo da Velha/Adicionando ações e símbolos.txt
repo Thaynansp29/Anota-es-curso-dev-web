@@ -1,0 +1,54 @@
+os arquivos de JS vão ser separados em dois arquivos, game.js e interface.js
+
+interface.js:
+
+document.addEventListerner('DOMContentLoaded', () => {  (vai ser executado quando todo documento for carregado)
+
+	let squares= document.querySelectorAll(".square"); (vai pegar todos os squares do html)
+
+	squares.forEach((square) => {
+		square.addEventListener('click', handleClick); (vai varrer esse array de square e pegar cada quadrado e vai criar um eventlister de click e usar a function handleClick)
+	})
+})
+
+function handleClick(event){
+	
+	let square = event.target; (target é o elemento que recebeu o evento)
+	let position = square.id; (pegar o id chamar de position e passar la no handleMove do game.js)
+
+	handleMove(position);
+	updateSquares();
+}
+
+function updateSquares() {
+
+	let squares = document.querySelectiorAll(".square"); (varrendo de novo todos os quadrados da tela)
+
+	squares.forEach((square) => { (varrendo cada um deles)
+	let position = square.id;
+	let symbol = board[position];
+
+	if (symbol != '') { (verifica se o simbolo está vazio se sim ele coloca o simbulo)
+		square.innerHTML = `<div class='${symbol}'></div>`
+		}
+	}
+}
+
+game.js
+
+let board = ['', '', '','', '', '','', '', '',];
+let playerTime = 0;
+let symbols = ['o', 'x'];  (é o simbolo que criamos no html)
+
+function handleMove(position) { (vai pegar a posição que passamos e pegar la no board a posicao e colocar o simbolo do jogador da vez)
+
+	if (board[position] == ''){ (esse if desbuga fazendo com que so entre o simbulo se o quadrado estiver vazio se não, não coloca mais)
+	board[postion] = symbols[playerTime];
+
+	if(playerTime == 0){ (ele começa com o jogador 0 que é o o e passa para o jogar 1 que é o x)
+	   playerTime =1;
+	} else {
+		playerTime = 0;
+		}
+	}
+}

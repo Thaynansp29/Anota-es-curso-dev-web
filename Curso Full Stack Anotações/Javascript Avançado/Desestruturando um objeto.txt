@@ -1,0 +1,67 @@
+Tem como pegar somente uma parte do objeto em vez de pegar tudo como no exemplo do Spread Operator, por exemplo:
+
+var aluno = {
+	matricula: 1234,
+	nome: "Marcos",
+	telefone: 987654432,
+	cidade: "Barra do piraí"
+}
+
+const {matricula, nome, ...resto} = aluno (dessa forma estamos separando a matricula e o nome da copia da var aluno)
+
+console.log(resto) ({telefone: 987654432, cidade:"Barra do piraí"}), (Não aparendo o que separamos).
+
+Dá para fazer também com arrays dessa forma:
+
+var aluno = {
+	matricula: 1234,
+	nome: "Marcos",
+	telefone: 987654432,
+	cidade: "Barra do piraí"
+}
+
+var aluno1 = {
+	matricula: 1235,
+	nome: "Joao",
+	telefone: 987654789,
+	cidade: "Barra do piraí"
+}
+
+var alunos = [aluno, aluno1]
+
+var [marcos, joao] = alunos (a ordem aqui interfere, temos que colocar o marcos primeiro )
+
+console.log(marcos) ({matricula: 1234, nome: "Marcos", telefone: 987654432, cidade: "Barra do piraí"})
+
+E também tem como separa o marcos dos outros dessa forma:
+
+var aluno = {
+	matricula: 1234,
+	nome: "Marcos",
+	telefone: 987654432,
+	cidade: "Barra do piraí"
+}
+
+var aluno1 = {
+	matricula: 1235,
+	nome: "Joao",
+	telefone: 987654789,
+	cidade: "Barra do piraí"
+}
+
+
+var aluno2 = {
+	matricula: 1236,
+	nome: "Jose",
+	telefone: 987654789,
+	cidade: "Barra do piraí"
+}
+
+var alunos = [aluno, aluno1, aluno2]
+
+var [marcos, ...outros] = alunos (assim estamos separando marcos dos outros dois alunos)
+
+console.log(marcos) ({matricula: 1234, nome: "Marcos", telefone: 987654432, cidade: "Barra do piraí"})
+
+console.log(outros) ([{...}, {...}]) (0: {matricula:1235, nome:"Joao", telefone: 987654789, cidade: "Barra do piraí"}) (1: {matricula:1236, nome: "Jose", telefone: 987654789, cidade: "Barra do piraí"})
+

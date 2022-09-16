@@ -1,0 +1,47 @@
+Spread operator é o [...pessoa] ou {...pessoa} que vimos em valores e referencias, da para adicionar mais conteudo em uma var como copia da para fazer assim, exemplo:
+
+var pessoa = {
+	name: "José Silva",
+	idade: 32,
+}
+
+var contato = {
+	telefone: 8765432,
+	email: "jose@gmail.com"
+}
+
+var copia ={...pessoa, cidade: "Rio de Janeiro"} (assim vai fazer uma copia do objeto pessoa e incluir cidade ficando: name: "José silva", idade: 88, cidade: "Rio de janeiro") 
+copia.idade = 88;
+
+console.log(pessoa);
+console.log(copia);
+
+Também tem como adicionar outros conjuntos a essa copia dessa forma:
+
+
+var pessoa = {
+	name: "José Silva",
+	idade: 32,
+}
+
+var contato = {
+	telefone: 8765432,
+	email: "jose@gmail.com"
+}
+var copia ={...pessoa, cidade: "Rio de Janeiro", ...contato} (assim pegar todos os dados da var contato e incluir na copia)
+copia.idade = 88;
+
+console.log(pessoa);
+console.log(copia);
+
+a copia no console.log ficaria : {name:"José Silva", idade: 88, cidade: "Rio de Janeiro", telefone: 8765432, email: "jose@gmail.com"}
+
+Isso também da certo com array, por exemplo:
+
+var notas_turma1 = [10, 8, 4, 3];
+
+var notas_turma2 = [4, 5, 4, 6];
+
+var todas_notas = [...notas_turma1, ...notas_turma2]
+
+console.log(todas_notas) (assim juntaria todos os 2 arrays dessa forma [10, 8, 4, 3, 4, 5, 4, 6]).
