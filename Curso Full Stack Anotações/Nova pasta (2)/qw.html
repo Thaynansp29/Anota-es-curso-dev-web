@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolhendo cores com input color</title>
+    <style>
+      #resultado {
+        width: 80px;
+        height: 80px;
+        background: #27be39;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="frmColor">
+      <label for="cor"
+        >Clique na caixa de cores para selecionar uma nova cor:</label
+      >
+      <input type="color" id="cor" name="cores" value="#27BE39" />
+      <input type="submit" value="Aplicar a cor selecionada" />
+    </form>
+    <div id="resultado"></div>
+    <script>
+      document.getElementById("frmColor").onsubmit = function () {
+        let frmCor = document.getElementById("frmColor").elements;
+        document.getElementById("resultado").style.background =
+          frmCor["cores"].value;
+        return false;
+      };
+    </script>
+  </body>
+</html>
